@@ -1,0 +1,38 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.479316383600235,
+                0.2383916974067688,
+                0.00334172579459846,
+                1.0
+            ]
+        },
+        "clearCoat": {
+            "normalStrength": 0.0
+        },
+        "emissive": {
+            "color": [
+                0.479316383600235,
+                0.2383916974067688,
+                0.00334172579459846,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 0.5
+        },
+        "metallic": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.0
+        },
+        "specularF0": {
+            "factor": 1.0
+        }
+    }
+}

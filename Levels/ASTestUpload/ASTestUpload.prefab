@@ -1100,6 +1100,75 @@
                 }
             }
         },
+        "Entity_[469317216734]": {
+            "Id": "Entity_[469317216734]",
+            "Name": "ASEnity",
+            "Components": {
+                "Component_[11310887550325207738]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11310887550325207738
+                },
+                "Component_[12376804355374992851]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12376804355374992851
+                },
+                "Component_[12912042605897413962]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12912042605897413962,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                    "subId": 285127096
+                                },
+                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[1553615069462246383]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1553615069462246383
+                },
+                "Component_[171175355530157651]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 171175355530157651
+                },
+                "Component_[17205814960302264731]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17205814960302264731
+                },
+                "Component_[17259556678655252295]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17259556678655252295
+                },
+                "Component_[2986164565930814894]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2986164565930814894
+                },
+                "Component_[3757893123395553075]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3757893123395553075
+                },
+                "Component_[880224704169393344]": {
+                    "$type": "SelectionComponent",
+                    "Id": 880224704169393344
+                },
+                "Component_[8940697112806706623]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8940697112806706623,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            2.9602537155151369,
+                            1.6879644393920899,
+                            1.375866413116455
+                        ]
+                    }
+                }
+            }
+        },
         "Entity_[844853278345]": {
             "Id": "Entity_[844853278345]",
             "Name": "Sphere",

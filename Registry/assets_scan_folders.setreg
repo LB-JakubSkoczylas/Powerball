@@ -1,0 +1,14 @@
+{
+    "Amazon":
+    {
+        "Powerball.Assets":
+        {
+            "SourcePaths":
+            [
+                "Assets",
+                "ShaderLib",
+                "Shaders"
+            ]
+        }
+    }
+}

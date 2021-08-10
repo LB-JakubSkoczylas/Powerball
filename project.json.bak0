@@ -1,0 +1,15 @@
+{
+    "project_name": "Powerball",
+    "origin": "The primary repo for Powerball goes here: i.e. http://www.mydomain.com",
+    "license": "What license Powerball uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "Powerball",
+    "summary": "A short description of Powerball.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Powerball"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de"
+}

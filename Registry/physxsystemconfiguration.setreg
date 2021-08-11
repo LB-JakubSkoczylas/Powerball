@@ -80,7 +80,7 @@
                                 },
                                 {
                                     "Id": {
-                                        "GroupId": "{85554DC9-2414-4507-98C9-1B31422C21D3}"
+                                        "GroupId": "{BE223B91-13B3-4C94-9F23-6D6CE0D80E86}"
                                     },
                                     "Name": "None",
                                     "Group": {
@@ -90,7 +90,7 @@
                                 },
                                 {
                                     "Id": {
-                                        "GroupId": "{0644B62A-6C0C-4FBC-9588-E5EB8C2405FF}"
+                                        "GroupId": "{0A75F913-6E00-468F-8EAA-30D842C6AF3D}"
                                     },
                                     "Name": "All_NoTouchBend",
                                     "Group": {
@@ -100,13 +100,6 @@
                                 }
                             ]
                         }
-                    },
-                    "MaterialLibrary": {
-                        "assetId": {
-                            "guid": "{5B2559BC-AB56-5EE4-B2AC-F7F63253245A}"
-                        },
-                        "loadBehavior": "QueueLoad",
-                        "assetHint": "assets/physicsmaterials/asphysicsmateriallibrary.physmaterial"
                     }
                 }
             }

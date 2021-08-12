@@ -309,6 +309,52 @@
                                     "m_id": "{BCCAC9E6-D77D-4B23-8529-575B4CBB7C53}"
                                 },
                                 "VariableName": "BallID"
+                            },
+                            {
+                                "Datum": {
+                                    "m_isUntypedStorage": false,
+                                    "m_type": {
+                                        "m_type": 8
+                                    },
+                                    "m_datumStorage": {
+                                        "$type": "Vector3",
+                                        "value": [
+                                            15.0,
+                                            15.0,
+                                            0.0
+                                        ]
+                                    }
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{8D4AA0C3-A9C3-4DBD-A029-E1F0C2378847}"
+                                },
+                                "VariableName": "MaxRotation"
+                            },
+                            {
+                                "Datum": {
+                                    "m_isUntypedStorage": false,
+                                    "m_type": {
+                                        "m_type": 8
+                                    },
+                                    "m_datumStorage": {
+                                        "$type": "Vector3",
+                                        "value": [
+                                            -15.0,
+                                            -15.0,
+                                            0.0
+                                        ]
+                                    }
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{D5F968CE-9906-4758-9D1D-1DA656F4C53A}"
+                                },
+                                "VariableName": "MinRotation"
                             }
                         ]
                     }
@@ -967,189 +1013,6 @@
                 }
             }
         },
-        "Entity_[337629356891953]": {
-            "Id": "Entity_[337629356891953]",
-            "Name": "ASPowerStickyMaterial",
-            "Components": {
-                "Component_[10674917075981695436]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 10674917075981695436,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": {
-                                "{}": {
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{B8972ADB-DBA9-5807-9742-2B14453FDD96}"
-                                        },
-                                        "assetHint": "materials/presets/macbeth/13_blue.azmaterial"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "defaultMaterialSlot": {
-                        "materialAsset": {
-                            "assetId": {
-                                "guid": "{B8972ADB-DBA9-5807-9742-2B14453FDD96}"
-                            },
-                            "assetHint": "materials/presets/macbeth/13_blue.azmaterial"
-                        }
-                    },
-                    "materialSlots": [
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        }
-                    ],
-                    "materialSlotsByLod": [
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ]
-                    ]
-                },
-                "Component_[11004211969979424725]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 11004211969979424725
-                },
-                "Component_[12049134949649229402]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 12049134949649229402
-                },
-                "Component_[12883066743264998537]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 12883066743264998537
-                },
-                "Component_[1605991932073427410]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 1605991932073427410
-                },
-                "Component_[17506556836510208313]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17506556836510208313
-                },
-                "Component_[17644947063458378959]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 17644947063458378959,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 285127096
-                                },
-                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[3441302886671649598]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 3441302886671649598,
-                    "Parent Entity": "Entity_[15141272814003]",
-                    "Transform Data": {
-                        "Translate": [
-                            -11.771894454956055,
-                            1.0187950134277344,
-                            16.703304290771486
-                        ]
-                    }
-                },
-                "Component_[441034370055693054]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 441034370055693054
-                },
-                "Component_[6875229278486308313]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 6875229278486308313
-                },
-                "Component_[6892285270953397460]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 6892285270953397460
-                },
-                "Component_[8427418547343018980]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 8427418547343018980
-                },
-                "Component_[9109276637474848260]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 9109276637474848260,
-                    "m_name": "ASPowerStickyMaterial",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{6DF454F8-264A-5153-8806-C5CDA0A5B47D}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspowerstickymaterial.scriptcanvas"
-                        }
-                    },
-                    "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{6DF454F8-264A-5153-8806-C5CDA0A5B47D}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspowerstickymaterial.scriptcanvas"
-                        }
-                    }
-                },
-                "Component_[9222771846694879817]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 9222771846694879817,
-                    "ColliderConfiguration": {
-                        "Trigger": true,
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1549281371
-                                },
-                                "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1549281371
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
         "Entity_[80395175599921]": {
             "Id": "Entity_[80395175599921]",
             "Name": "ASPowerSlowDown",
@@ -1288,8 +1151,8 @@
                     "Parent Entity": "Entity_[15141272814003]",
                     "Transform Data": {
                         "Translate": [
-                            -11.704803466796875,
-                            4.567806243896484,
+                            -7.439275741577148,
+                            0.20185184478759767,
                             16.698837280273439
                         ]
                     }
@@ -1466,7 +1329,7 @@
                     "Transform Data": {
                         "Translate": [
                             -11.601160049438477,
-                            7.544988632202148,
+                            0.2648000717163086,
                             16.698837280273439
                         ]
                     }

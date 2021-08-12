@@ -167,9 +167,38 @@
                                 "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
                             }
                         },
+                        {
+                            "id": {
+                                "materialSlotStableId": 803645540
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 803645540
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                            }
+                        },
                         {}
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 803645540
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                        "subId": 803645540
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {

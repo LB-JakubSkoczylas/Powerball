@@ -1,0 +1,70 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{EAC11CAB-8A82-5333-A0AF-30FFC9987F15}",
+            "name": "platfromBLUE",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Cube.Cube_1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Light"
+                ]
+            },
+            "MaterialSlots": [
+                "Material"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "platfromBLUE",
+            "selectedRootBone": "RootNode",
+            "id": "{3784584C-49F3-513F-B5FE-091713E19518}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "platfromBLUE",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_1",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Light"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{A7E3127C-1C58-50B5-9106-69E5542367BD}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

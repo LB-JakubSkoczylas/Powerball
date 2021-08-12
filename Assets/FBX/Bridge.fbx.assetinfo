@@ -1,0 +1,74 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{6DB8515F-8150-598C-9A70-83C336B18288}",
+            "name": "Bridge",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Cube.Cube_1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.BezierCurve"
+                ]
+            },
+            "MaterialSlots": [
+                "Material"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "Bridge",
+            "selectedRootBone": "RootNode",
+            "id": "{FC2454E4-6908-595E-9D7A-E7CB6654054C}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Bridge",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_1",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.BezierCurve"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{43FDFEF2-730B-5B63-BB09-AEA0FB3216B3}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

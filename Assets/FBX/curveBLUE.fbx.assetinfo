@@ -1,0 +1,72 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{1A829882-B600-51AC-BE82-DF955BB794C1}",
+            "name": "curveBLUE",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Cube.Cube_1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Light",
+                    "RootNode.BezierCurve"
+                ]
+            },
+            "MaterialSlots": [
+                "Material"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "curveBLUE",
+            "selectedRootBone": "RootNode",
+            "id": "{89B9AEE1-F750-59DE-BD3D-7A51BA8E3B29}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "curveBLUE",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_1",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Light",
+                    "RootNode.BezierCurve"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{A2C952BC-FFF9-522A-9C35-2D1C40B7E551}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

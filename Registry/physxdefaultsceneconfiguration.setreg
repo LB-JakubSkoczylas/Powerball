@@ -2,13 +2,7 @@
     "Amazon": {
         "Gems": {
             "PhysX": {
-                "DefaultSceneConfiguration": {
-                    "Gravity": [
-                        0.0,
-                        0.0,
-                        -20.0
-                    ]
-                }
+                "DefaultSceneConfiguration": {}
             }
         }
     }

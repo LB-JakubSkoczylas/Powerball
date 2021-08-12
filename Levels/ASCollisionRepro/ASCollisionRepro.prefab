@@ -576,24 +576,24 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 315009890
+                                    "guid": "{91D25AAB-1C2C-5478-AF2C-0954B8313919}",
+                                    "subId": 267821683
                                 },
-                                "assetHint": "materialeditor/viewportmodels/cube.pxmesh"
+                                "assetHint": "assets/fbx/ascube1.pxmesh"
                             },
                             "Configuration": {
                                 "Scale": [
-                                    2.0,
-                                    2.0,
-                                    2.0
+                                    4.0,
+                                    4.0,
+                                    4.0
                                 ],
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 315009890
+                                        "guid": "{91D25AAB-1C2C-5478-AF2C-0954B8313919}",
+                                        "subId": 267821683
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube.pxmesh"
+                                    "assetHint": "assets/fbx/ascube1.pxmesh"
                                 }
                             }
                         }
@@ -606,10 +606,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 285127096
+                                    "guid": "{91D25AAB-1C2C-5478-AF2C-0954B8313919}",
+                                    "subId": 275725029
                                 },
-                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
+                                "assetHint": "assets/fbx/ascube1.azmodel"
                             }
                         }
                     }
@@ -648,7 +648,7 @@
                             1.6976661682128907,
                             6.599865913391113
                         ],
-                        "UniformScale": 2.0
+                        "UniformScale": 4.0
                     }
                 },
                 "Component_[905376014649846551]": {
@@ -691,19 +691,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1801833720
+                                    "guid": "{97E6883B-1089-5EF5-A9EA-8E354C979D1D}",
+                                    "subId": 344944791
                                 },
-                                "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                                "assetHint": "assets/fbx/assphere1.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1801833720
+                                        "guid": "{97E6883B-1089-5EF5-A9EA-8E354C979D1D}",
+                                        "subId": 344944791
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                                    "assetHint": "assets/fbx/assphere1.pxmesh"
                                 }
                             }
                         }
@@ -718,18 +718,12 @@
                     "Id": 16993758170168374555,
                     "Configuration": {
                         "entityId": "",
-                        "Mass": 523.5989990234375,
+                        "Mass": 3988.61376953125,
                         "Centre of mass offset": [
-                            -3.209227605882603e-10,
-                            5.215969167693402e-8,
-                            4.5421448720273094e-12
-                        ],
-                        "Inertia tensor": {
-                            "roll": 0.0,
-                            "pitch": 0.0,
-                            "yaw": 0.0,
-                            "scale": 0.01909857615828514
-                        }
+                            -0.000005193519882595865,
+                            -0.00019532814621925354,
+                            0.9997009038925171
+                        ]
                     }
                 },
                 "Component_[18121666738663852636]": {
@@ -752,7 +746,7 @@
                         "Translate": [
                             5.084467887878418,
                             1.537766933441162,
-                            12.05844497680664
+                            13.992305755615235
                         ]
                     }
                 },
@@ -763,10 +757,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 274434668
+                                    "guid": "{97E6883B-1089-5EF5-A9EA-8E354C979D1D}",
+                                    "subId": 284674070
                                 },
-                                "assetHint": "objects/_primitives/_sphere_1x1.azmodel"
+                                "assetHint": "assets/fbx/assphere1.azmodel"
                             }
                         }
                     }

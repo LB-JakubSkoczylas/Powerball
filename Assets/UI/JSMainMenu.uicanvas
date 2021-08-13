@@ -149,26 +149,10 @@
 									<Class name="AZStd::unordered_map" field="EntityIdMap" type="{D33569A9-EFFC-566C-8CCC-74D6E086A1B0}">
 										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
 											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="17165428100931703432" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="300860693116" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="586067200641" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-										</Class>
-										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
-											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="590362167937" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-										</Class>
-										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
-											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="313745595004" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="594657135233" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="603247069825" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 										</Class>
 										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
@@ -181,10 +165,26 @@
 										</Class>
 										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
 											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="300860693116" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="313745595004" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="603247069825" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="594657135233" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+										</Class>
+										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
+											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="590362167937" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+										</Class>
+										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
+											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="17165428100931703432" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="586067200641" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 										</Class>
 									</Class>
@@ -199,6 +199,23 @@
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiButtonComponent({7329DFE8-0F3C-4629-B395-78B2CF646B96})#8757450508939430504·5/UiInteractableComponent({A42EB486-1C89-434C-AD22-A3FC6CEEC46F})::BaseClass1·2/AZStd::vector({BE13CF75-3B94-5569-AEAD-F31E0067762B})::HoverStateActions·0/UiInteractableStateFont({0E39A3BC-CEF5-4385-9D06-BFEE189E77E1})#0·2/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="UiInteractableStateFont" field="m_data" version="2" type="{0E39A3BC-CEF5-4385-9D06-BFEE189E77E1}">
+														<Class name="UiInteractableStateAction" field="BaseClass1" type="{D86C82E1-E027-453F-A43B-BD801CF88391}"/>
+														<Class name="EntityId" field="TargetEntity" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+															<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+														</Class>
+														<Class name="SimpleAssetReference&lt;AssetType&gt;&lt;FontAsset &gt;" field="FontFileName" version="1" type="{4953F80A-F59C-5F38-9E84-AFEB8F438CC4}">
+															<Class name="SimpleAssetReferenceBase" field="BaseClass1" version="1" type="{E16CA6C5-5C78-4AD9-8E9B-F8C1FB4D1DB8}">
+																<Class name="AZStd::string" field="AssetPath" value="fonts/vera-italic.font" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+															</Class>
+														</Class>
+														<Class name="unsigned int" field="EffectIndex" value="1" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+													</Class>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
 												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiButtonComponent({7329DFE8-0F3C-4629-B395-78B2CF646B96})#8757450508939430504·5/UiInteractableComponent({A42EB486-1C89-434C-AD22-A3FC6CEEC46F})::BaseClass1·2/AZStd::string({03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9})::PressedActionName·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
 												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
 													<Class name="AZStd::string" field="m_data" value="3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
@@ -208,6 +225,18 @@
 												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165429629940060808·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiTextComponent({5B3FB2A7-5DC4-4033-A970-001CEC85B6C4})#3068610810953516373·9/AZStd::string({03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9})::Text·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
 												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
 													<Class name="AZStd::string" field="m_data" value="Quit" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiButtonComponent({7329DFE8-0F3C-4629-B395-78B2CF646B96})#8757450508939430504·5/UiInteractableComponent({A42EB486-1C89-434C-AD22-A3FC6CEEC46F})::BaseClass1·2/AZStd::vector({BE13CF75-3B94-5569-AEAD-F31E0067762B})::HoverStateActions·0/UiInteractableStateColor({D7978A94-592F-4E1A-86EF-E34A819A55FB})#1·3/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="UiInteractableStateColor" field="m_data" version="3" type="{D7978A94-592F-4E1A-86EF-E34A819A55FB}">
+														<Class name="UiInteractableStateAction" field="BaseClass1" type="{D86C82E1-E027-453F-A43B-BD801CF88391}"/>
+														<Class name="EntityId" field="TargetEntity" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+															<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+														</Class>
+														<Class name="Color" field="Color" value="1.0000000 1.0000000 0.0000000 1.0000000" type="{7894072A-9050-4F0F-901B-34B1A0D29417}"/>
+													</Class>
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
@@ -325,31 +354,6 @@
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
-												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::MetadataEntities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#300860693116·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/EditorDisabledCompositionComponent({E77AE6AC-897D-4035-8353-637449B6DCFB})#13091901429679908543·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
-												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
-													<Class name="EditorDisabledCompositionComponent" field="m_data" type="{E77AE6AC-897D-4035-8353-637449B6DCFB}">
-														<Class name="EditorComponentBase" field="BaseClass1" version="1" type="{D5346BD4-7F20-444E-B370-327ACD03D4A0}">
-															<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
-																<Class name="AZ::u64" field="Id" value="13091901429679908543" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-															</Class>
-														</Class>
-														<Class name="AZStd::vector" field="DisabledComponents" type="{13D58FF9-1088-5C69-9A1F-C2A144B57B78}"/>
-													</Class>
-												</Class>
-											</Class>
-											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
-												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiTransform2dComponent({2751A5A5-3291-4A4D-9FC0-9CB0EB8D1DE6})#15333478216472190740·3/Anchors({65D4346C-FB16-4CB0-9BDC-1185B122C4A9})::Anchors·0/float({EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D})::left·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
-												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
-													<Class name="float" field="m_data" value="0.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
-												</Class>
-											</Class>
-											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
-												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::MetadataEntities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#300860693116·2/bool({A0CA880C-AFE4-43CB-926C-59AC48496112})::IsDependencyReady·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
-												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
-													<Class name="bool" field="m_data" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
-												</Class>
-											</Class>
-											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
 												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::MetadataEntities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#313745595004·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/EditorDisabledCompositionComponent({E77AE6AC-897D-4035-8353-637449B6DCFB})#1602512142846503084·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
 												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
 													<Class name="EditorDisabledCompositionComponent" field="m_data" type="{E77AE6AC-897D-4035-8353-637449B6DCFB}">
@@ -385,6 +389,37 @@
 														</Class>
 														<Class name="AZStd::vector" field="PendingComponents" type="{13D58FF9-1088-5C69-9A1F-C2A144B57B78}"/>
 													</Class>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiImageComponent({BDBEFD23-DBB4-4726-A32D-4FEAC24E51F6})#17217584308910145132·7/SimpleAssetReference&lt;AssetType&gt;&lt;TextureAsset &gt;({6E0B1C86-F66A-5D30-BCBB-0F9EA199E4AF})::SpritePath·1/SimpleAssetReferenceBase({E16CA6C5-5C78-4AD9-8E9B-F8C1FB4D1DB8})::BaseClass1·1/AZStd::string({03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9})::AssetPath·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="AZStd::string" field="m_data" value="assets/ui/ghost.png" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiTransform2dComponent({2751A5A5-3291-4A4D-9FC0-9CB0EB8D1DE6})#15333478216472190740·3/Anchors({65D4346C-FB16-4CB0-9BDC-1185B122C4A9})::Anchors·0/float({EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D})::left·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="float" field="m_data" value="0.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::MetadataEntities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#300860693116·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/EditorDisabledCompositionComponent({E77AE6AC-897D-4035-8353-637449B6DCFB})#13091901429679908543·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="EditorDisabledCompositionComponent" field="m_data" type="{E77AE6AC-897D-4035-8353-637449B6DCFB}">
+														<Class name="EditorComponentBase" field="BaseClass1" version="1" type="{D5346BD4-7F20-444E-B370-327ACD03D4A0}">
+															<Class name="AZ::Component" field="BaseClass1" type="{EDFCB2CF-F75D-43BE-B26B-F35821B29247}">
+																<Class name="AZ::u64" field="Id" value="13091901429679908543" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+															</Class>
+														</Class>
+														<Class name="AZStd::vector" field="DisabledComponents" type="{13D58FF9-1088-5C69-9A1F-C2A144B57B78}"/>
+													</Class>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::MetadataEntities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#300860693116·2/bool({A0CA880C-AFE4-43CB-926C-59AC48496112})::IsDependencyReady·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="bool" field="m_data" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
@@ -479,26 +514,10 @@
 									<Class name="AZStd::unordered_map" field="EntityIdMap" type="{D33569A9-EFFC-566C-8CCC-74D6E086A1B0}">
 										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
 											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="313745595004" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="1194063775312" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-										</Class>
-										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
-											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="318040562300" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="1198358742608" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-										</Class>
-										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
-											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="300860693116" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
-											</Class>
-											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="1202653709904" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="495872887425" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 										</Class>
 										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
@@ -511,10 +530,26 @@
 										</Class>
 										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
 											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="300860693116" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
-												<Class name="AZ::u64" field="id" value="495872887425" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+												<Class name="AZ::u64" field="id" value="1202653709904" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+										</Class>
+										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
+											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="318040562300" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="1198358742608" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+										</Class>
+										<Class name="AZStd::pair" field="element" type="{30DDE93C-E899-5AB9-856D-FC456D054EDB}">
+											<Class name="EntityId" field="value1" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="313745595004" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+											</Class>
+											<Class name="EntityId" field="value2" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+												<Class name="AZ::u64" field="id" value="1194063775312" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 											</Class>
 										</Class>
 									</Class>
@@ -549,12 +584,6 @@
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
-												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiImageComponent({BDBEFD23-DBB4-4726-A32D-4FEAC24E51F6})#17217584308910145132·7/int({72039442-EB38-4D42-A1AD-CB68F7E0EEF6})::SpriteType·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
-												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
-													<Class name="int" field="m_data" value="1" type="{72039442-EB38-4D42-A1AD-CB68F7E0EEF6}"/>
-												</Class>
-											</Class>
-											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
 												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiTransform2dComponent({2751A5A5-3291-4A4D-9FC0-9CB0EB8D1DE6})#15333478216472190740·3/Anchors({65D4346C-FB16-4CB0-9BDC-1185B122C4A9})::Anchors·0/float({EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D})::right·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
 												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
 													<Class name="float" field="m_data" value="0.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
@@ -574,6 +603,23 @@
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiButtonComponent({7329DFE8-0F3C-4629-B395-78B2CF646B96})#8757450508939430504·5/UiInteractableComponent({A42EB486-1C89-434C-AD22-A3FC6CEEC46F})::BaseClass1·2/AZStd::vector({BE13CF75-3B94-5569-AEAD-F31E0067762B})::HoverStateActions·0/UiInteractableStateFont({0E39A3BC-CEF5-4385-9D06-BFEE189E77E1})#0·2/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="UiInteractableStateFont" field="m_data" version="2" type="{0E39A3BC-CEF5-4385-9D06-BFEE189E77E1}">
+														<Class name="UiInteractableStateAction" field="BaseClass1" type="{D86C82E1-E027-453F-A43B-BD801CF88391}"/>
+														<Class name="EntityId" field="TargetEntity" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+															<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+														</Class>
+														<Class name="SimpleAssetReference&lt;AssetType&gt;&lt;FontAsset &gt;" field="FontFileName" version="1" type="{4953F80A-F59C-5F38-9E84-AFEB8F438CC4}">
+															<Class name="SimpleAssetReferenceBase" field="BaseClass1" version="1" type="{E16CA6C5-5C78-4AD9-8E9B-F8C1FB4D1DB8}">
+																<Class name="AZStd::string" field="AssetPath" value="fonts/vera-italic.font" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+															</Class>
+														</Class>
+														<Class name="unsigned int" field="EffectIndex" value="1" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+													</Class>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
 												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiButtonComponent({7329DFE8-0F3C-4629-B395-78B2CF646B96})#8757450508939430504·5/UiInteractableComponent({A42EB486-1C89-434C-AD22-A3FC6CEEC46F})::BaseClass1·2/AZStd::string({03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9})::PressedActionName·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
 												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
 													<Class name="AZStd::string" field="m_data" value="3" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
@@ -583,6 +629,18 @@
 												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165429629940060808·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiTextComponent({5B3FB2A7-5DC4-4033-A970-001CEC85B6C4})#3068610810953516373·9/AZStd::string({03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9})::Text·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
 												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
 													<Class name="AZStd::string" field="m_data" value="Start" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+												</Class>
+											</Class>
+											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
+												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiButtonComponent({7329DFE8-0F3C-4629-B395-78B2CF646B96})#8757450508939430504·5/UiInteractableComponent({A42EB486-1C89-434C-AD22-A3FC6CEEC46F})::BaseClass1·2/AZStd::vector({BE13CF75-3B94-5569-AEAD-F31E0067762B})::HoverStateActions·0/UiInteractableStateColor({D7978A94-592F-4E1A-86EF-E34A819A55FB})#1·3/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
+												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
+													<Class name="UiInteractableStateColor" field="m_data" version="3" type="{D7978A94-592F-4E1A-86EF-E34A819A55FB}">
+														<Class name="UiInteractableStateAction" field="BaseClass1" type="{D86C82E1-E027-453F-A43B-BD801CF88391}"/>
+														<Class name="EntityId" field="TargetEntity" version="1" type="{6383F1D3-BB27-4E6B-A49A-6409B2059EAA}">
+															<Class name="AZ::u64" field="id" value="17165429629940060808" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+														</Class>
+														<Class name="Color" field="Color" value="1.0000000 1.0000000 0.0000000 1.0000000" type="{7894072A-9050-4F0F-901B-34B1A0D29417}"/>
+													</Class>
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
@@ -745,7 +803,7 @@
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">
 												<Class name="AddressType" field="value1" value="AZStd::vector({21786AF0-2606-5B9A-86EB-0892E2820E6C})::Entities·0/AZ::Entity({75651658-8663-478D-9090-2432DFCAFA44})#17165428100931703432·2/AZStd::vector({13D58FF9-1088-5C69-9A1F-C2A144B57B78})::Components·0/UiImageComponent({BDBEFD23-DBB4-4726-A32D-4FEAC24E51F6})#17217584308910145132·7/SimpleAssetReference&lt;AssetType&gt;&lt;TextureAsset &gt;({6E0B1C86-F66A-5D30-BCBB-0F9EA199E4AF})::SpritePath·1/SimpleAssetReferenceBase({E16CA6C5-5C78-4AD9-8E9B-F8C1FB4D1DB8})::BaseClass1·1/AZStd::string({03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9})::AssetPath·0/" version="1" type="{90752F2D-CBD3-4EE9-9CDD-447E797C8408}"/>
 												<Class name="any" field="value2" type="{03924488-C7F4-4D6D-948B-ABC2D1AE2FD3}">
-													<Class name="AZStd::string" field="m_data" value="" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+													<Class name="AZStd::string" field="m_data" value="assets/ui/ghost.png" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
 												</Class>
 											</Class>
 											<Class name="AZStd::pair" field="element" type="{FED51EB4-F646-51FF-9646-9852CF90F353}">

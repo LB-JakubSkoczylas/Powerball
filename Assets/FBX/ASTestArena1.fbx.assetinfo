@@ -1,0 +1,84 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "ASTestArena1",
+            "selectedRootBone": "RootNode",
+            "id": "{F3F10C30-AB20-5CB8-8F1D-8C23608FD3B5}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{E5AC5AE7-C443-536C-9FE0-4ED5FD46F3FE}",
+            "name": "ASTestArena1",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Cube.Cube_1",
+                    "RootNode.Cube.Cube_1.transform",
+                    "RootNode.Cube.Cube_1.UV0",
+                    "RootNode.Cube.Cube_1.Stripes",
+                    "RootNode.Cube.Cube_1.Base"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Cube.Cube_2.transform",
+                    "RootNode.Cube.Cube_2.UV0",
+                    "RootNode.Cube.Cube_2.Stripes",
+                    "RootNode.Cube.Cube_2.Base"
+                ]
+            },
+            "export method": 2,
+            "ConvexAssetParams": {
+                "AreaTestEpsilon": 0.05900000035762787,
+                "PlaneTolerance": 0.0
+            },
+            "DecomposeMeshes": true,
+            "ConvexDecompositionParams": {
+                "MaxNumVerticesPerConvexHull": 128,
+                "Concavity": 0.0,
+                "Resolution": 10000,
+                "PlaneDownsampling": 16,
+                "ConvexHullDownsampling": 16
+            },
+            "MaterialSlots": [
+                "Stripes"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "ASTestArena1",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Cube",
+                    "RootNode.Cube.Cube_1",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Cube.Cube_1.transform",
+                    "RootNode.Cube.Cube_1.UV0",
+                    "RootNode.Cube.Cube_1.Stripes",
+                    "RootNode.Cube.Cube_1.Base",
+                    "RootNode.Cube.Cube_2.transform",
+                    "RootNode.Cube.Cube_2.UV0",
+                    "RootNode.Cube.Cube_2.Stripes",
+                    "RootNode.Cube.Cube_2.Base"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{B335770B-D33F-513E-A000-1E56DAA57EB7}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

@@ -822,7 +822,18 @@
                         "entityId": "",
                         "Gravity Enabled": false,
                         "Kinematic": true,
-                        "Compute Mass": false
+                        "Compute Mass": false,
+                        "Centre of mass offset": [
+                            -2.023729085922241,
+                            -1.387805461883545,
+                            3.2700541019439699
+                        ],
+                        "Inertia tensor": {
+                            "roll": 0.0,
+                            "pitch": 0.0,
+                            "yaw": 0.0,
+                            "scale": 0.014271624386310578
+                        }
                     }
                 },
                 "Component_[4532719834282108447]": {
@@ -835,7 +846,6 @@
                     "ColliderConfiguration": {
                         "MaterialSelection": {
                             "MaterialIds": [
-                                {},
                                 {}
                             ]
                         }
@@ -896,35 +906,40 @@
                     "m_assetHolder": {
                         "m_asset": {
                             "assetId": {
-                                "guid": "{91373B4E-6653-5F17-9E87-436A4255FE9D}"
+                                "guid": "{617FFDB9-82D3-5AF5-89E6-7A46D97D8424}"
                             },
-                            "assetHint": "scriptcanvas/astestnewarenamovement.scriptcanvas"
+                            "assetHint": "assets/scriptcanvas/astestnewarenamovement.scriptcanvas"
                         }
                     },
                     "runtimeDataIsValid": true,
                     "runtimeDataOverrides": {
                         "source": {
                             "assetId": {
-                                "guid": "{91373B4E-6653-5F17-9E87-436A4255FE9D}"
+                                "guid": "{617FFDB9-82D3-5AF5-89E6-7A46D97D8424}"
                             },
-                            "assetHint": "scriptcanvas/astestnewarenamovement.scriptcanvas"
+                            "assetHint": "assets/scriptcanvas/astestnewarenamovement.scriptcanvas"
                         },
                         "overridesUnused": [
                             {
                                 "Datum": {
                                     "scriptCanvasType": {
-                                        "m_type": 3
+                                        "m_type": 6
                                     },
-                                    "$type": "double",
-                                    "value": 0.0
+                                    "$type": "Quaternion",
+                                    "value": [
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        1.0
+                                    ]
                                 },
                                 "InputControlVisibility": {
                                     "Value": 850104567
                                 },
                                 "VariableId": {
-                                    "m_id": "{3B509FC6-6F7F-4265-8B07-259A491D1701}"
+                                    "m_id": "{0A89C4D1-C59F-437F-A9A7-71D8E8DACE26}"
                                 },
-                                "VariableName": "WValue"
+                                "VariableName": "DynamicPivotQuaternion"
                             }
                         ]
                     }
@@ -954,7 +969,7 @@
                     "Transform Data": {
                         "Translate": [
                             20.83763885498047,
-                            5.047075271606445,
+                            5.647073745727539,
                             10.276652336120606
                         ]
                     }
@@ -998,18 +1013,18 @@
                     "m_assetHolder": {
                         "m_asset": {
                             "assetId": {
-                                "guid": "{1F2BA0B2-A9B9-5BDE-86DE-450B0DECF658}"
+                                "guid": "{AE28EF68-FBBD-5A7F-A9C3-9A101F0DB5B0}"
                             },
-                            "assetHint": "scriptcanvas/asballtranslationsend.scriptcanvas"
+                            "assetHint": "assets/scriptcanvas/asballtranslationsend.scriptcanvas"
                         }
                     },
                     "runtimeDataIsValid": true,
                     "runtimeDataOverrides": {
                         "source": {
                             "assetId": {
-                                "guid": "{1F2BA0B2-A9B9-5BDE-86DE-450B0DECF658}"
+                                "guid": "{AE28EF68-FBBD-5A7F-A9C3-9A101F0DB5B0}"
                             },
-                            "assetHint": "scriptcanvas/asballtranslationsend.scriptcanvas"
+                            "assetHint": "assets/scriptcanvas/asballtranslationsend.scriptcanvas"
                         }
                     }
                 },

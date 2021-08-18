@@ -6,20 +6,33 @@
             "name": "Bridge",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.Cube.Cube_1"
+                    "RootNode.Cube.Cube_1",
+                    "RootNode.Cube.Cube_1.Col0",
+                    "RootNode.Cube.Cube_1.animation",
+                    "RootNode.Cube.Cube_1.transform",
+                    "RootNode.Cube.Cube_1.UVMap",
+                    "RootNode.Cube.Cube_1.BridgeMat"
                 ],
                 "unselectedNodes": [
-                    {},
                     "RootNode",
                     "RootNode.Cube",
-                    "RootNode.Cube.Cube_2",
                     "RootNode.Light",
-                    "RootNode.Camera",
-                    "RootNode.BezierCurve"
+                    "RootNode.BezierCurve",
+                    "RootNode.Cube.Cube_2",
+                    "RootNode.Light.transform",
+                    "RootNode.BezierCurve.transform",
+                    "RootNode.Cube.Cube_2.Col0",
+                    "RootNode.Cube.Cube_2.animation",
+                    "RootNode.Cube.Cube_2.transform",
+                    "RootNode.Cube.Cube_2.UVMap",
+                    "RootNode.Cube.Cube_2.BridgeMat"
                 ]
             },
+            "PrimitiveAssetParams": {
+                "VolumeTermCoefficient": 0.0020000000949949028
+            },
             "MaterialSlots": [
-                "Material"
+                "BridgeMat"
             ],
             "PhysicsMaterials": [
                 "<Default Physics Material>"
@@ -43,14 +56,24 @@
             "name": "Bridge",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
                     "RootNode.Cube",
+                    "RootNode.Light",
+                    "RootNode.BezierCurve",
                     "RootNode.Cube.Cube_1",
                     "RootNode.Cube.Cube_2",
-                    "RootNode.Light",
-                    "RootNode.Camera",
-                    "RootNode.BezierCurve"
+                    "RootNode.Light.transform",
+                    "RootNode.BezierCurve.transform",
+                    "RootNode.Cube.Cube_1.Col0",
+                    "RootNode.Cube.Cube_1.animation",
+                    "RootNode.Cube.Cube_1.transform",
+                    "RootNode.Cube.Cube_1.UVMap",
+                    "RootNode.Cube.Cube_1.BridgeMat",
+                    "RootNode.Cube.Cube_2.Col0",
+                    "RootNode.Cube.Cube_2.animation",
+                    "RootNode.Cube.Cube_2.transform",
+                    "RootNode.Cube.Cube_2.UVMap",
+                    "RootNode.Cube.Cube_2.BridgeMat"
                 ]
             },
             "rules": {

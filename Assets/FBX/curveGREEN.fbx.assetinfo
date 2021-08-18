@@ -2,8 +2,8 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{1A829882-B600-51AC-BE82-DF955BB794C1}",
-            "name": "curveBLUE",
+            "id": "{F2B75E27-4830-5521-B92E-CD3A1484CF9D}",
+            "name": "curveGREEN",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "RootNode.Cube.Cube_1",
@@ -28,14 +28,10 @@
                     "RootNode.Cube.Cube_2.Curve Mat"
                 ]
             },
-            "ConvexAssetParams": {
-                "BuildGpuData": true
-            },
+            "export method": 1,
             "DecomposeMeshes": true,
             "ConvexDecompositionParams": {
-                "MaxNumVerticesPerConvexHull": 1024,
-                "Concavity": 0.0,
-                "Resolution": 1000000
+                "MaxNumVerticesPerConvexHull": 1024
             },
             "MaterialSlots": [
                 "Curve Mat"
@@ -46,9 +42,9 @@
         },
         {
             "$type": "MotionGroup",
-            "name": "curveBLUE",
+            "name": "curveGREEN",
             "selectedRootBone": "RootNode",
-            "id": "{89B9AEE1-F750-59DE-BD3D-7A51BA8E3B29}",
+            "id": "{7598FA26-24EB-5C1F-B979-346728412732}",
             "rules": {
                 "rules": [
                     {
@@ -59,7 +55,7 @@
         },
         {
             "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "curveBLUE",
+            "name": "curveGREEN",
             "nodeSelectionList": {
                 "selectedNodes": [
                     "RootNode",
@@ -93,7 +89,7 @@
                     }
                 ]
             },
-            "id": "{A2C952BC-FFF9-522A-9C35-2D1C40B7E551}"
+            "id": "{8EC1D074-869D-585B-9EA3-ECE1011396FF}"
         },
         {
             "$type": "LoggingGroup",

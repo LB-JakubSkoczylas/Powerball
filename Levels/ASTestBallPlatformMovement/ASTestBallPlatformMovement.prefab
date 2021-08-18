@@ -1,0 +1,1125 @@
+{
+    "ContainerEntity": {
+        "Id": "Entity_[1146574390643]",
+        "Name": "Level",
+        "Components": {
+            "Component_[10641544592923449938]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10641544592923449938
+            },
+            "Component_[12039882709170782873]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12039882709170782873
+            },
+            "Component_[12265484671603697631]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12265484671603697631
+            },
+            "Component_[14126657869720434043]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14126657869720434043
+            },
+            "Component_[15230859088967841193]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15230859088967841193,
+                "Parent Entity": ""
+            },
+            "Component_[16239496886950819870]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16239496886950819870
+            },
+            "Component_[5688118765544765547]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5688118765544765547
+            },
+            "Component_[6545738857812235305]": {
+                "$type": "SelectionComponent",
+                "Id": 6545738857812235305
+            },
+            "Component_[7247035804068349658]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7247035804068349658
+            },
+            "Component_[9307224322037797205]": {
+                "$type": "EditorLockComponent",
+                "Id": 9307224322037797205
+            },
+            "Component_[9562516168917670048]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9562516168917670048
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1155164325235]": {
+            "Id": "Entity_[1155164325235]",
+            "Name": "Sun",
+            "Components": {
+                "Component_[10440557478882592717]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10440557478882592717
+                },
+                "Component_[13620450453324765907]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13620450453324765907
+                },
+                "Component_[2134313378593666258]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2134313378593666258
+                },
+                "Component_[234010807770404186]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 234010807770404186
+                },
+                "Component_[2970359110423865725]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2970359110423865725
+                },
+                "Component_[3722854130373041803]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3722854130373041803
+                },
+                "Component_[5992533738676323195]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5992533738676323195
+                },
+                "Component_[7378860763541895402]": {
+                    "$type": "AZ::Render::EditorDirectionalLightComponent",
+                    "Id": 7378860763541895402,
+                    "Controller": {
+                        "Configuration": {
+                            "Intensity": 1.0,
+                            "CameraEntityId": "",
+                            "ShadowFilterMethod": 1
+                        }
+                    }
+                },
+                "Component_[7892834440890947578]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7892834440890947578,
+                    "Parent Entity": "Entity_[1176639161715]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            13.487043380737305
+                        ],
+                        "Rotate": [
+                            -76.13099670410156,
+                            -0.847000002861023,
+                            -15.8100004196167
+                        ]
+                    }
+                },
+                "Component_[8599729549570828259]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8599729549570828259
+                },
+                "Component_[952797371922080273]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 952797371922080273
+                }
+            }
+        },
+        "Entity_[1159459292531]": {
+            "Id": "Entity_[1159459292531]",
+            "Name": "Ground",
+            "Components": {
+                "Component_[11701138785793981042]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11701138785793981042
+                },
+                "Component_[12260880513256986252]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12260880513256986252
+                },
+                "Component_[13711420870643673468]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13711420870643673468
+                },
+                "Component_[138002849734991713]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 138002849734991713
+                },
+                "Component_[16578565737331764849]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16578565737331764849,
+                    "Parent Entity": "Entity_[1176639161715]"
+                },
+                "Component_[16919232076966545697]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16919232076966545697
+                },
+                "Component_[5182430712893438093]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5182430712893438093,
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 803645540
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 803645540
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 803645540
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 803645540
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 803645540
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 803645540
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 803645540
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 803645540
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                            }
+                        },
+                        {}
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 803645540
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                        "subId": 803645540
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 803645540
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                        "subId": 803645540
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 803645540
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                        "subId": 803645540
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 803645540
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                        "subId": 803645540
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[5675108321710651991]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5675108321710651991,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                    "subId": 277889906
+                                },
+                                "assetHint": "objects/groudplane/groundplane_512x512m.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5681893399601237518]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5681893399601237518
+                },
+                "Component_[592692962543397545]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 592692962543397545
+                },
+                "Component_[7090012899106946164]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7090012899106946164
+                },
+                "Component_[9410832619875640998]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9410832619875640998
+                }
+            }
+        },
+        "Entity_[1176639161715]": {
+            "Id": "Entity_[1176639161715]",
+            "Name": "Atom Default Environment",
+            "Components": {
+                "Component_[10757302973393310045]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10757302973393310045,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[14505817420424255464]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14505817420424255464,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10757302973393310045
+                        }
+                    ]
+                },
+                "Component_[14988041764659020032]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14988041764659020032
+                },
+                "Component_[15808690248755038124]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15808690248755038124
+                },
+                "Component_[15900837685796817138]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15900837685796817138
+                },
+                "Component_[3298767348226484884]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3298767348226484884
+                },
+                "Component_[4076975109609220594]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4076975109609220594
+                },
+                "Component_[5679760548946028854]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5679760548946028854
+                },
+                "Component_[5855590796136709437]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5855590796136709437,
+                    "ChildEntityOrderEntryArray": [
+                        {
+                            "EntityId": "Entity_[1155164325235]"
+                        },
+                        {
+                            "EntityId": "Entity_[1180934129011]",
+                            "SortIndex": 1
+                        },
+                        {
+                            "EntityId": "",
+                            "SortIndex": 2
+                        },
+                        {
+                            "EntityId": "",
+                            "SortIndex": 3
+                        },
+                        {
+                            "EntityId": "",
+                            "SortIndex": 4
+                        },
+                        {
+                            "EntityId": "Entity_[1159459292531]",
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "Component_[9277695270015777859]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9277695270015777859
+                }
+            }
+        },
+        "Entity_[1180934129011]": {
+            "Id": "Entity_[1180934129011]",
+            "Name": "Global Sky",
+            "Components": {
+                "Component_[11231930600558681245]": {
+                    "$type": "AZ::Render::EditorHDRiSkyboxComponent",
+                    "Id": 11231930600558681245,
+                    "Controller": {
+                        "Configuration": {
+                            "CubemapAsset": {
+                                "assetId": {
+                                    "guid": "{215E47FD-D181-5832-B1AB-91673ABF6399}",
+                                    "subId": 1000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_skyboxcm.exr.streamingimage"
+                            }
+                        }
+                    }
+                },
+                "Component_[11980494120202836095]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11980494120202836095
+                },
+                "Component_[1428633914413949476]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1428633914413949476
+                },
+                "Component_[14936200426671614999]": {
+                    "$type": "AZ::Render::EditorImageBasedLightComponent",
+                    "Id": 14936200426671614999,
+                    "Controller": {
+                        "Configuration": {
+                            "diffuseImageAsset": {
+                                "assetId": {
+                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                    "subId": 3000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_ibldiffuse.exr.streamingimage"
+                            },
+                            "specularImageAsset": {
+                                "assetId": {
+                                    "guid": "{3FD09945-D0F2-55C8-B9AF-B2FD421FE3BE}",
+                                    "subId": 2000
+                                },
+                                "assetHint": "lightingpresets/highcontrast/goegap_4k_iblglobalcm_iblspecular.exr.streamingimage"
+                            }
+                        }
+                    }
+                },
+                "Component_[14994774102579326069]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14994774102579326069
+                },
+                "Component_[15417479889044493340]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15417479889044493340
+                },
+                "Component_[15826613364991382688]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15826613364991382688
+                },
+                "Component_[1665003113283562343]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1665003113283562343
+                },
+                "Component_[3704934735944502280]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3704934735944502280
+                },
+                "Component_[5698542331457326479]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5698542331457326479
+                },
+                "Component_[6644513399057217122]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6644513399057217122,
+                    "Parent Entity": "Entity_[1176639161715]"
+                },
+                "Component_[931091830724002070]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 931091830724002070
+                }
+            }
+        },
+        "Entity_[127550989815947]": {
+            "Id": "Entity_[127550989815947]",
+            "Name": "CurveBLUE",
+            "Components": {
+                "Component_[11288934548195210280]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11288934548195210280
+                },
+                "Component_[12069327186639630784]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12069327186639630784,
+                    "Parent Entity": "Entity_[129260386799755]",
+                    "Transform Data": {
+                        "Translate": [
+                            -36.800018310546878,
+                            5.700007915496826,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -92.3636703491211
+                        ]
+                    }
+                },
+                "Component_[12137363428452106493]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12137363428452106493
+                },
+                "Component_[13718652039171489886]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13718652039171489886
+                },
+                "Component_[15322755833229493655]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15322755833229493655
+                },
+                "Component_[4080513588897292620]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4080513588897292620,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 1400104650
+                                },
+                                "assetHint": "assets/fbx/curveblue.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                        "subId": 1400104650
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/fbx/curveblue.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[4347413791245819732]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4347413791245819732
+                },
+                "Component_[7013941115484896076]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7013941115484896076
+                },
+                "Component_[7263072788619873045]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 7263072788619873045,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "Kinematic": true,
+                        "Compute Mass": false,
+                        "Compute inertia": false
+                    }
+                },
+                "Component_[7705331340989225055]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7705331340989225055
+                },
+                "Component_[811074262474695140]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 811074262474695140
+                },
+                "Component_[8443671058632600186]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8443671058632600186
+                },
+                "Component_[9173311745541525505]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9173311745541525505,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 276558960
+                                },
+                                "assetHint": "assets/fbx/curveblue.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[129260386799755]": {
+            "Id": "Entity_[129260386799755]",
+            "Name": "CurveBLUE",
+            "Components": {
+                "Component_[11288934548195210280]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11288934548195210280
+                },
+                "Component_[12069327186639630784]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12069327186639630784,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.899999976158142,
+                            2.6000001430511476,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[12137363428452106493]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12137363428452106493
+                },
+                "Component_[13718652039171489886]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13718652039171489886
+                },
+                "Component_[15322755833229493655]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15322755833229493655
+                },
+                "Component_[4080513588897292620]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4080513588897292620,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 1400104650
+                                },
+                                "assetHint": "assets/fbx/curveblue.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                        "subId": 1400104650
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/fbx/curveblue.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[4347413791245819732]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4347413791245819732
+                },
+                "Component_[5852895538120464263]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 5852895538120464263,
+                    "m_name": "ASRotatePlatforms",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{3402899E-49F7-5F5B-A972-1BD544EA95AD}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asrotateplatforms.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{3402899E-49F7-5F5B-A972-1BD544EA95AD}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asrotateplatforms.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[7013941115484896076]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7013941115484896076
+                },
+                "Component_[7263072788619873045]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 7263072788619873045,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "Kinematic": true,
+                        "Compute Mass": false,
+                        "Compute inertia": false
+                    }
+                },
+                "Component_[7705331340989225055]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7705331340989225055
+                },
+                "Component_[811074262474695140]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 811074262474695140
+                },
+                "Component_[8443671058632600186]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8443671058632600186
+                },
+                "Component_[9173311745541525505]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9173311745541525505,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 276558960
+                                },
+                                "assetHint": "assets/fbx/curveblue.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[129599689216139]": {
+            "Id": "Entity_[129599689216139]",
+            "Name": "CurveBLUE",
+            "Components": {
+                "Component_[11288934548195210280]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11288934548195210280
+                },
+                "Component_[12069327186639630784]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12069327186639630784,
+                    "Parent Entity": "Entity_[129260386799755]",
+                    "Transform Data": {
+                        "Translate": [
+                            -30.300025939941408,
+                            42.300025939941409,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            177.65037536621095
+                        ]
+                    }
+                },
+                "Component_[12137363428452106493]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12137363428452106493
+                },
+                "Component_[13718652039171489886]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13718652039171489886
+                },
+                "Component_[15322755833229493655]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15322755833229493655
+                },
+                "Component_[4080513588897292620]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4080513588897292620,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 1400104650
+                                },
+                                "assetHint": "assets/fbx/curveblue.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                        "subId": 1400104650
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/fbx/curveblue.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[4347413791245819732]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4347413791245819732
+                },
+                "Component_[7013941115484896076]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7013941115484896076
+                },
+                "Component_[7263072788619873045]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 7263072788619873045,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "Kinematic": true,
+                        "Compute Mass": false,
+                        "Compute inertia": false
+                    }
+                },
+                "Component_[7705331340989225055]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7705331340989225055
+                },
+                "Component_[811074262474695140]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 811074262474695140
+                },
+                "Component_[8443671058632600186]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8443671058632600186
+                },
+                "Component_[9173311745541525505]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9173311745541525505,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 276558960
+                                },
+                                "assetHint": "assets/fbx/curveblue.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[129891746992267]": {
+            "Id": "Entity_[129891746992267]",
+            "Name": "CurveBLUE",
+            "Components": {
+                "Component_[11288934548195210280]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11288934548195210280
+                },
+                "Component_[12069327186639630784]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12069327186639630784,
+                    "Parent Entity": "Entity_[129260386799755]",
+                    "Transform Data": {
+                        "Translate": [
+                            7.29998254776001,
+                            37.20004653930664,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            91.62012481689453
+                        ]
+                    }
+                },
+                "Component_[12137363428452106493]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12137363428452106493
+                },
+                "Component_[13718652039171489886]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13718652039171489886
+                },
+                "Component_[15322755833229493655]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15322755833229493655
+                },
+                "Component_[4080513588897292620]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4080513588897292620,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 1400104650
+                                },
+                                "assetHint": "assets/fbx/curveblue.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                        "subId": 1400104650
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/fbx/curveblue.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[4347413791245819732]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4347413791245819732
+                },
+                "Component_[7013941115484896076]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7013941115484896076
+                },
+                "Component_[7263072788619873045]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 7263072788619873045,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "Kinematic": true,
+                        "Compute Mass": false,
+                        "Compute inertia": false
+                    }
+                },
+                "Component_[7705331340989225055]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7705331340989225055
+                },
+                "Component_[811074262474695140]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 811074262474695140
+                },
+                "Component_[8443671058632600186]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8443671058632600186
+                },
+                "Component_[9173311745541525505]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9173311745541525505,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 276558960
+                                },
+                                "assetHint": "assets/fbx/curveblue.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[71667265035969]": {
+            "Id": "Entity_[71667265035969]",
+            "Name": "Ball",
+            "Components": {
+                "Component_[10729967675191012443]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10729967675191012443
+                },
+                "Component_[15204147826067519574]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15204147826067519574
+                },
+                "Component_[15298833068382550362]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15298833068382550362
+                },
+                "Component_[15984684002538791679]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15984684002538791679
+                },
+                "Component_[16516536375211155840]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16516536375211155840
+                },
+                "Component_[17876718687298260124]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17876718687298260124
+                },
+                "Component_[18044398608169048226]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18044398608169048226
+                },
+                "Component_[1860021351809709761]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1860021351809709761,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                    "subId": 1801833720
+                                },
+                                "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                        "subId": 1801833720
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[303237361729576359]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 303237361729576359,
+                    "m_name": "ASMoveBall",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{FDFF9E3E-F042-500B-92A8-3C32B810E8DA}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asmoveball.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{FDFF9E3E-F042-500B-92A8-3C32B810E8DA}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asmoveball.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[4206201826306418954]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4206201826306418954,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.3307878971099854,
+                            6.368949890136719,
+                            7.974292755126953
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            81.54985046386719
+                        ]
+                    }
+                },
+                "Component_[4342844605450296249]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 4342844605450296249,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 523.5989990234375,
+                        "Centre of mass offset": [
+                            -3.209227605882603e-10,
+                            5.215969167693402e-8,
+                            4.5421448720273094e-12
+                        ],
+                        "Inertia tensor": {
+                            "roll": 0.0,
+                            "pitch": 0.0,
+                            "yaw": 0.0,
+                            "scale": 0.01909857615828514
+                        }
+                    }
+                },
+                "Component_[5204324075395747255]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5204324075395747255,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                    "subId": 274434668
+                                },
+                                "assetHint": "objects/_primitives/_sphere_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7152063742987929791]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 7152063742987929791,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{720E4B21-D210-541E-8D68-A987E19A0992}"
+                            },
+                            "assetHint": "assets/inputbindings/asmoveballandplatforms.inputbindings"
+                        }
+                    }
+                },
+                "Component_[7672661688133321527]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7672661688133321527
+                },
+                "Component_[9264516519270174305]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9264516519270174305
+                }
+            }
+        }
+    }
+}

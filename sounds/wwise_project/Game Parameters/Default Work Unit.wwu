@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B96BE725-7D9E-47DF-BB2B-74474928DAAA}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B96BE725-7D9E-47DF-BB2B-74474928DAAA}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="VoiceVolume" ID="{7F8E2401-3F47-4FED-8759-EAB185C027F2}"/>
+				<GameParameter Name="New_Game_Parameter" ID="{4D88DCCA-C626-46CD-ABC2-AD2A96C62D0E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

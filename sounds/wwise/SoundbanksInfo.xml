@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\GPC-610\.o3de\Projects\Powerball\sounds\wwise_project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\GPC-610\.o3de\Projects\Powerball\sounds\wwise_project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\GPC-610\.o3de\Projects\Powerball\sounds\wwise\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\GPC-610\.o3de\Projects\Powerball\sounds\wwise_project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1721731208">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX" Hash="2964376614">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Default Work Unit\Play">
+					<IncludedMemoryFiles>
+						<File Id="830930290" Language="SFX">
+							<ShortName>abc.wav</ShortName>
+							<Path>SFX\abc_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="788884573" Name="Stop" ObjectPath="\Events\Default Work Unit\Stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="830930290" Language="SFX">
+					<ShortName>abc.wav</ShortName>
+					<Path>SFX\abc_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="414646191" Name="VoiceVolume" ObjectPath="\Game Parameters\Default Work Unit\VoiceVolume"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

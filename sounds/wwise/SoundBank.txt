@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	788884573	Stop			\Default Work Unit\Stop	
+	1256202815	Play			\Default Work Unit\Play	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	414646191	VoiceVolume			\Default Work Unit\VoiceVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	830930290	abc	C:\Users\GPC-610\.o3de\Projects\Powerball\sounds\wwise_project\.cache\Windows\SFX\abc_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\abc		352320
+

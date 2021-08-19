@@ -105,4 +105,5 @@ set(ENABLED_GEMS
     VideoPlaybackFramework
     VirtualGamepad
     
+    AudioEngineWwise
 )

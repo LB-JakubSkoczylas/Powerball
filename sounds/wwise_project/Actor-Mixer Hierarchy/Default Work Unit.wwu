@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5AA84220-9C9F-456F-852F-A6BAF64A5F10}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5AA84220-9C9F-456F-852F-A6BAF64A5F10}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="abc" ID="{1D84CAD9-4771-497E-98F9-B0E0C53DB9A8}" ShortID="5183675">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{D2AFE41D-8EE0-4932-9327-63C99C86EB49}" ShortID="687539645">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="VoiceVolume" ID="{7F8E2401-3F47-4FED-8759-EAB185C027F2}" WorkUnitID="{B96BE725-7D9E-47DF-BB2B-74474928DAAA}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{780F5F6C-3A58-4373-B302-297BFED5C3A4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFDC5503-F46C-4247-9852-73F221AF4C1C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34CFC0F7-1939-4829-87B2-079E38A8648A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="abc" ID="{40B87B8C-1B38-4003-822E-416F2926572D}">
+							<Language>SFX</Language>
+							<AudioFile>abc.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="830930290"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="abc" ID="{40B87B8C-1B38-4003-822E-416F2926572D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

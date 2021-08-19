@@ -1,0 +1,21 @@
+<ATLConfig atl_name="new_folder">
+	<AudioTriggers>
+		<ATLTrigger atl_name="trigger_1">
+			<WwiseEvent wwise_name="Stop"/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="trigger">
+			<WwiseEvent wwise_name="Play"/>
+		</ATLTrigger>
+	</AudioTriggers>
+	<AudioRtpcs>
+		<ATLRtpc atl_name="rtpc">
+			<WwiseRtpc wwise_name="VoiceVolume"/>
+		</ATLRtpc>
+	</AudioRtpcs>
+	<AudioPreloads>
+		<ATLPreloadRequest atl_name="preload" atl_type="AutoLoad">
+			<WwiseFile wwise_name="soundbank.bnk"/>
+		</ATLPreloadRequest>
+	</AudioPreloads>
+</ATLConfig>
+

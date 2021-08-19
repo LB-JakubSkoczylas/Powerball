@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5934F275-AB8D-4B42-AE8E-B310E0C820C1}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5934F275-AB8D-4B42-AE8E-B310E0C820C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play" ID="{882EE77A-FECC-449A-9EF4-15C486825802}">
+					<ChildrenList>
+						<Action Name="" ID="{83F4F54F-3634-4224-B352-1ACB524DECAB}" ShortID="1012779460">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="abc" ID="{1D84CAD9-4771-497E-98F9-B0E0C53DB9A8}" WorkUnitID="{5AA84220-9C9F-456F-852F-A6BAF64A5F10}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop" ID="{095894E2-EEC5-46EA-AC21-84C199967D63}">
+					<ChildrenList>
+						<Action Name="" ID="{28E0C935-3208-4DBD-96A5-9252A80C8309}" ShortID="970833168">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="abc" ID="{1D84CAD9-4771-497E-98F9-B0E0C53DB9A8}" WorkUnitID="{5AA84220-9C9F-456F-852F-A6BAF64A5F10}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -28,7 +28,6 @@
                     "RootNode.Cube.Cube_2.Curve Mat"
                 ]
             },
-            "export method": 1,
             "DecomposeMeshes": true,
             "ConvexDecompositionParams": {
                 "MaxNumVerticesPerConvexHull": 1024

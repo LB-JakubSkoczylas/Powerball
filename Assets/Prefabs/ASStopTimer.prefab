@@ -1,0 +1,190 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ASStopTimer",
+        "Components": {
+            "Component_[11683490283034378181]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11683490283034378181
+            },
+            "Component_[13182263652606898447]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13182263652606898447
+            },
+            "Component_[16046160071902860434]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16046160071902860434
+            },
+            "Component_[16546236539759690737]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16546236539759690737,
+                "Parent Entity": ""
+            },
+            "Component_[17444503107136724110]": {
+                "$type": "EditorLockComponent",
+                "Id": 17444503107136724110
+            },
+            "Component_[1901988254269587363]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1901988254269587363
+            },
+            "Component_[3935896075954254806]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3935896075954254806
+            },
+            "Component_[4630658001881214778]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4630658001881214778
+            },
+            "Component_[5661580637002320456]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5661580637002320456
+            },
+            "Component_[6991425855663811315]": {
+                "$type": "SelectionComponent",
+                "Id": 6991425855663811315
+            },
+            "Component_[814411353380043139]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 814411353380043139
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6691112614000]": {
+            "Id": "Entity_[6691112614000]",
+            "Name": "ASStopTimer",
+            "Components": {
+                "Component_[10080068817632656526]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10080068817632656526
+                },
+                "Component_[1077330502803451602]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1077330502803451602
+                },
+                "Component_[12552041926875347040]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 12552041926875347040,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                1.0,
+                                20.0,
+                                1.0
+                            ]
+                        }
+                    ]
+                },
+                "Component_[12661135322399752836]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 12661135322399752836,
+                    "m_name": "ASStopTimer",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{AD0426BF-198F-51CE-87C6-9CDC70EC0D10}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asstoptimer.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{AD0426BF-198F-51CE-87C6-9CDC70EC0D10}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asstoptimer.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[127656534679746626]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 127656534679746626
+                },
+                "Component_[14490471107239119642]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 14490471107239119642,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "Kinematic": true
+                    }
+                },
+                "Component_[14951555998611150710]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14951555998611150710
+                },
+                "Component_[15326311495393581009]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15326311495393581009,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7258212336294173067
+                        },
+                        {
+                            "ComponentId": 6314476347204543719,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12552041926875347040,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 12661135322399752836,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 14490471107239119642,
+                            "SortIndex": 4
+                        }
+                    ]
+                },
+                "Component_[15500963714756731375]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15500963714756731375
+                },
+                "Component_[1692577090822686742]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1692577090822686742
+                },
+                "Component_[6314476347204543719]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 6314476347204543719,
+                    "GameView": true,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                1.0,
+                                20.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[7258212336294173067]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7258212336294173067,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9479958300729359159]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9479958300729359159
+                },
+                "Component_[9910105649134379046]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9910105649134379046
+                }
+            }
+        }
+    }
+}

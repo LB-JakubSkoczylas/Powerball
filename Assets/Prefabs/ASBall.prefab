@@ -1,0 +1,275 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ASBall",
+        "Components": {
+            "Component_[11525538276693723207]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11525538276693723207
+            },
+            "Component_[1898904881434325656]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1898904881434325656
+            },
+            "Component_[1993607726192344587]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1993607726192344587
+            },
+            "Component_[2326687612978696993]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2326687612978696993
+            },
+            "Component_[3413410927188207098]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3413410927188207098
+            },
+            "Component_[4494358944691179328]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4494358944691179328
+            },
+            "Component_[4749775231609852552]": {
+                "$type": "SelectionComponent",
+                "Id": 4749775231609852552
+            },
+            "Component_[5679642650803486735]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5679642650803486735
+            },
+            "Component_[5730549675757512927]": {
+                "$type": "EditorLockComponent",
+                "Id": 5730549675757512927
+            },
+            "Component_[6413369761674732465]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6413369761674732465,
+                "Parent Entity": ""
+            },
+            "Component_[8130127521711606510]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8130127521711606510
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6201486342256]": {
+            "Id": "Entity_[6201486342256]",
+            "Name": "ASBall",
+            "Components": {
+                "Component_[11064944224836445662]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11064944224836445662
+                },
+                "Component_[11118809128329698423]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11118809128329698423,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[11410379517919263447]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 11410379517919263447,
+                    "m_name": "ASBall",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{D4C41064-88DB-5B1D-9E8B-FC233B8BE842}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asball.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{D4C41064-88DB-5B1D-9E8B-FC233B8BE842}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asball.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[13185972409885498687]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13185972409885498687
+                },
+                "Component_[13256888683785316506]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13256888683785316506,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11118809128329698423
+                        },
+                        {
+                            "ComponentId": 11410379517919263447,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5859566300693308110,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 13733752209965887126,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 4049600879076546874,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 8206577846036585318,
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "Component_[13733752209965887126]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13733752209965887126,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{9CC0E916-0D35-57D0-8266-9F9DEF6EBC7A}"
+                                        },
+                                        "assetHint": "assets/materials/asgoldball.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{9CC0E916-0D35-57D0-8266-9F9DEF6EBC7A}"
+                            },
+                            "assetHint": "assets/materials/asgoldball.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 1738373820
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                    "subId": 1738373820
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1738373820
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                        "subId": 1738373820
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[255012453576523732]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 255012453576523732
+                },
+                "Component_[4049600879076546874]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4049600879076546874,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                    "subId": 1801833720
+                                },
+                                "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                        "subId": 1801833720
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                                },
+                                "UseMaterialsFromAsset": false
+                            }
+                        }
+                    }
+                },
+                "Component_[5859566300693308110]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5859566300693308110,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                    "subId": 274434668
+                                },
+                                "assetHint": "objects/_primitives/_sphere_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7837687088869070400]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7837687088869070400
+                },
+                "Component_[8206577846036585318]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 8206577846036585318,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Centre of mass offset": [
+                            -3.209227605882603e-10,
+                            5.215969167693402e-8,
+                            4.5421448720273094e-12
+                        ],
+                        "Inertia tensor": {
+                            "roll": 0.0,
+                            "pitch": 0.0,
+                            "yaw": 0.0,
+                            "scale": 9.999998092651368
+                        }
+                    }
+                },
+                "Component_[8762831837229235989]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8762831837229235989
+                },
+                "Component_[9146175228641683083]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9146175228641683083
+                },
+                "Component_[942771746376243096]": {
+                    "$type": "SelectionComponent",
+                    "Id": 942771746376243096
+                },
+                "Component_[9841942768782861455]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9841942768782861455
+                }
+            }
+        }
+    }
+}

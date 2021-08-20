@@ -321,93 +321,6 @@
                 }
             }
         },
-        "Entity_[1482622684890]": {
-            "Id": "Entity_[1482622684890]",
-            "Name": "ASUI",
-            "Components": {
-                "Component_[15036934809491628385]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 15036934809491628385
-                },
-                "Component_[16375135518530812860]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 16375135518530812860
-                },
-                "Component_[17309423620418486137]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 17309423620418486137
-                },
-                "Component_[2034819223332233420]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 2034819223332233420
-                },
-                "Component_[2406366772112251006]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 2406366772112251006
-                },
-                "Component_[3388656308368323272]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 3388656308368323272
-                },
-                "Component_[3700784136378477866]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 3700784136378477866
-                },
-                "Component_[4786187030660194485]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 4786187030660194485,
-                    "m_template": {
-                        "$type": "UiCanvasAssetRefComponent",
-                        "CanvasAssetRef": {
-                            "AssetPath": "assets/ui/jsmainmenu.uicanvas"
-                        },
-                        "IsAutoLoad": true
-                    }
-                },
-                "Component_[5026631435112495869]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 5026631435112495869,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            43.27430725097656,
-                            15.760969161987305,
-                            22.227914810180665
-                        ]
-                    }
-                },
-                "Component_[656861641406333681]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 656861641406333681,
-                    "m_name": "ASUIHandler",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{8CD146E3-F7E0-51CF-A189-CA7FFF415021}"
-                            },
-                            "assetHint": "assets/scriptcanvas/asuihandler.scriptcanvas"
-                        }
-                    },
-                    "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{8CD146E3-F7E0-51CF-A189-CA7FFF415021}"
-                            },
-                            "assetHint": "assets/scriptcanvas/asuihandler.scriptcanvas"
-                        }
-                    }
-                },
-                "Component_[8353117212029885454]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8353117212029885454
-                },
-                "Component_[9318569245469287847]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 9318569245469287847
-                }
-            }
-        },
         "Entity_[15141272814003]": {
             "Id": "Entity_[15141272814003]",
             "Name": "ASTestPlatforms",
@@ -459,648 +372,6 @@
                 "Component_[4004548023226502494]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 4004548023226502494
-                }
-            }
-        },
-        "Entity_[15145567781299]": {
-            "Id": "Entity_[15145567781299]",
-            "Name": "ASBall",
-            "Components": {
-                "Component_[11064944224836445662]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 11064944224836445662
-                },
-                "Component_[11118809128329698423]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 11118809128329698423,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            14.044109344482422,
-                            7.584203720092773,
-                            28.238754272460939
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            -91.81283569335938
-                        ]
-                    }
-                },
-                "Component_[11410379517919263447]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 11410379517919263447,
-                    "m_name": "ASBall",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{D4C41064-88DB-5B1D-9E8B-FC233B8BE842}"
-                            },
-                            "assetHint": "assets/scriptcanvas/asball.scriptcanvas"
-                        }
-                    },
-                    "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{D4C41064-88DB-5B1D-9E8B-FC233B8BE842}"
-                            },
-                            "assetHint": "assets/scriptcanvas/asball.scriptcanvas"
-                        }
-                    }
-                },
-                "Component_[13185972409885498687]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 13185972409885498687
-                },
-                "Component_[13256888683785316506]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 13256888683785316506
-                },
-                "Component_[13733752209965887126]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 13733752209965887126,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": {
-                                "{}": {
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{9CC0E916-0D35-57D0-8266-9F9DEF6EBC7A}"
-                                        },
-                                        "assetHint": "assets/materials/asgoldball.azmaterial"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "defaultMaterialSlot": {
-                        "materialAsset": {
-                            "assetId": {
-                                "guid": "{9CC0E916-0D35-57D0-8266-9F9DEF6EBC7A}"
-                            },
-                            "assetHint": "assets/materials/asgoldball.azmaterial"
-                        }
-                    },
-                    "materialSlots": [
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1738373820
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1738373820
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                            }
-                        }
-                    ],
-                    "materialSlotsByLod": [
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1738373820
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1738373820
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1_lambert3_10605252722126846652.azmaterial"
-                                }
-                            }
-                        ]
-                    ]
-                },
-                "Component_[255012453576523732]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 255012453576523732
-                },
-                "Component_[4049600879076546874]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 4049600879076546874,
-                    "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 1801833720
-                                },
-                                "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                        "subId": 1801833720
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
-                                },
-                                "UseMaterialsFromAsset": false
-                            }
-                        }
-                    }
-                },
-                "Component_[5859566300693308110]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 5859566300693308110,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
-                                    "subId": 274434668
-                                },
-                                "assetHint": "objects/_primitives/_sphere_1x1.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[7837687088869070400]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7837687088869070400
-                },
-                "Component_[8206577846036585318]": {
-                    "$type": "EditorRigidBodyComponent",
-                    "Id": 8206577846036585318,
-                    "Configuration": {
-                        "entityId": "",
-                        "Compute Mass": false,
-                        "Centre of mass offset": [
-                            -3.209227605882603e-10,
-                            5.215969167693402e-8,
-                            4.5421448720273094e-12
-                        ],
-                        "Inertia tensor": {
-                            "roll": 0.0,
-                            "pitch": 0.0,
-                            "yaw": 0.0,
-                            "scale": 9.999998092651368
-                        }
-                    }
-                },
-                "Component_[8762831837229235989]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 8762831837229235989
-                },
-                "Component_[9146175228641683083]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 9146175228641683083
-                },
-                "Component_[942771746376243096]": {
-                    "$type": "SelectionComponent",
-                    "Id": 942771746376243096
-                },
-                "Component_[9841942768782861455]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 9841942768782861455
                 }
             }
         },
@@ -1631,9 +902,38 @@
                                 "loadBehavior": "PreLoad",
                                 "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
                             }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1803671422
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                    "subId": 1803671422
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
+                            }
                         }
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1803671422
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                        "subId": 1803671422
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {
@@ -2185,9 +1485,38 @@
                                 "loadBehavior": "PreLoad",
                                 "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
                             }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1803671422
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                    "subId": 1803671422
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
+                            }
                         }
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1803671422
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                        "subId": 1803671422
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {
@@ -2827,9 +2156,38 @@
                                 "loadBehavior": "PreLoad",
                                 "assetHint": "assets/fbx/platfromblue_material_11127505492038345244.azmaterial"
                             }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 4180107804
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{4AABFC1C-7303-5355-BAC1-425253A8A872}",
+                                    "subId": 4180107804
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "assets/fbx/platfromblue_material_11127505492038345244.azmaterial"
+                            }
                         }
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 4180107804
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{4AABFC1C-7303-5355-BAC1-425253A8A872}",
+                                        "subId": 4180107804
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "assets/fbx/platfromblue_material_11127505492038345244.azmaterial"
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {
@@ -3149,6 +2507,19 @@
                         },
                         {
                             "id": {
+                                "materialSlotStableId": 195463025
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                    "subId": 195463025
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "assets/fbx/curveblue_curve_mat_5447840280556767089.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
                                 "materialSlotStableId": 4180107804
                             },
                             "defaultMaterialAsset": {
@@ -3279,6 +2650,22 @@
                         }
                     ],
                     "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 195463025
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{E2AFEA3E-5311-5E65-9A18-3D127B066771}",
+                                        "subId": 195463025
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "assets/fbx/curveblue_curve_mat_5447840280556767089.azmaterial"
+                                }
+                            }
+                        ],
                         [
                             {
                                 "id": {
@@ -3560,1596 +2947,6 @@
                 }
             }
         },
-        "Entity_[4832410779944]": {
-            "Id": "Entity_[4832410779944]",
-            "Name": "PropellerRED",
-            "Components": {
-                "Component_[11571467655469381705]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 11571467655469381705
-                },
-                "Component_[11669373794925164546]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 11669373794925164546
-                },
-                "Component_[11684679102178116695]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 11684679102178116695,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{E04A99A6-2C49-5616-95C4-EF3D2F17ADF0}",
-                                    "subId": 275865945
-                                },
-                                "assetHint": "assets/fbx/propellerred.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[12051524750528780534]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 12051524750528780534,
-                    "m_name": "ASPropellerRotate",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{B7EBA482-9569-59F5-8B32-1EE7E9377FA0}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspropellerrotate.scriptcanvas"
-                        }
-                    },
-                    "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{B7EBA482-9569-59F5-8B32-1EE7E9377FA0}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspropellerrotate.scriptcanvas"
-                        }
-                    }
-                },
-                "Component_[12403863265350894292]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 12403863265350894292
-                },
-                "Component_[15295158654206318147]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 15295158654206318147
-                },
-                "Component_[15352116914020310865]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 15352116914020310865,
-                    "Parent Entity": "Entity_[15175632552371]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.4406470060348511,
-                            -0.004999995231628418,
-                            1.3423128128051758
-                        ],
-                        "Rotate": [
-                            0.0,
-                            0.0,
-                            82.39791870117188
-                        ],
-                        "UniformScale": 0.05000000074505806
-                    }
-                },
-                "Component_[17221087743013569830]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 17221087743013569830
-                },
-                "Component_[18155575134223360926]": {
-                    "$type": "SelectionComponent",
-                    "Id": 18155575134223360926
-                },
-                "Component_[3075660353238397132]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 3075660353238397132
-                },
-                "Component_[3551529953671670580]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 3551529953671670580
-                },
-                "Component_[7180893088351826801]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7180893088351826801
-                },
-                "Component_[9233895116794373916]": {
-                    "$type": "EditorRigidBodyComponent",
-                    "Id": 9233895116794373916,
-                    "Configuration": {
-                        "entityId": "",
-                        "Gravity Enabled": false,
-                        "Kinematic": true,
-                        "Mass": 10750.6953125,
-                        "Centre of mass offset": [
-                            0.000041544437408447269,
-                            -0.3507950007915497,
-                            0.0017106763552874327
-                        ]
-                    }
-                },
-                "Component_[9694137857860909461]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 9694137857860909461,
-                    "ColliderConfiguration": {
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{E04A99A6-2C49-5616-95C4-EF3D2F17ADF0}",
-                                    "subId": 2105312790
-                                },
-                                "assetHint": "assets/fbx/propellerred.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{E04A99A6-2C49-5616-95C4-EF3D2F17ADF0}",
-                                        "subId": 2105312790
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/fbx/propellerred.pxmesh"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "Entity_[74544881132774]": {
-            "Id": "Entity_[74544881132774]",
-            "Name": "ASStopTimer",
-            "Components": {
-                "Component_[10080068817632656526]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 10080068817632656526
-                },
-                "Component_[1077330502803451602]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 1077330502803451602
-                },
-                "Component_[12552041926875347040]": {
-                    "$type": "EditorShapeColliderComponent",
-                    "Id": 12552041926875347040,
-                    "ColliderConfiguration": {
-                        "Trigger": true,
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfigs": [
-                        {
-                            "$type": "BoxShapeConfiguration",
-                            "Configuration": [
-                                1.0,
-                                20.0,
-                                1.0
-                            ]
-                        }
-                    ]
-                },
-                "Component_[12661135322399752836]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 12661135322399752836,
-                    "m_name": "ASStopTimer",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{AD0426BF-198F-51CE-87C6-9CDC70EC0D10}"
-                            },
-                            "assetHint": "assets/scriptcanvas/asstoptimer.scriptcanvas"
-                        }
-                    },
-                    "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{AD0426BF-198F-51CE-87C6-9CDC70EC0D10}"
-                            },
-                            "assetHint": "assets/scriptcanvas/asstoptimer.scriptcanvas"
-                        }
-                    }
-                },
-                "Component_[127656534679746626]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 127656534679746626
-                },
-                "Component_[14490471107239119642]": {
-                    "$type": "EditorRigidBodyComponent",
-                    "Id": 14490471107239119642,
-                    "Configuration": {
-                        "entityId": "",
-                        "Gravity Enabled": false,
-                        "Kinematic": true
-                    }
-                },
-                "Component_[14951555998611150710]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 14951555998611150710
-                },
-                "Component_[15326311495393581009]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 15326311495393581009
-                },
-                "Component_[15500963714756731375]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15500963714756731375
-                },
-                "Component_[1692577090822686742]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 1692577090822686742
-                },
-                "Component_[6314476347204543719]": {
-                    "$type": "EditorBoxShapeComponent",
-                    "Id": 6314476347204543719,
-                    "GameView": true,
-                    "BoxShape": {
-                        "Configuration": {
-                            "Dimensions": [
-                                1.0,
-                                20.0,
-                                1.0
-                            ]
-                        }
-                    }
-                },
-                "Component_[7258212336294173067]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 7258212336294173067,
-                    "Parent Entity": "Entity_[15175632552371]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.8525108098983765,
-                            -0.004294484853744507,
-                            1.0305274724960328
-                        ],
-                        "UniformScale": 0.05000000074505806
-                    }
-                },
-                "Component_[9479958300729359159]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9479958300729359159
-                },
-                "Component_[9910105649134379046]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 9910105649134379046
-                }
-            }
-        },
-        "Entity_[80395175599921]": {
-            "Id": "Entity_[80395175599921]",
-            "Name": "ASPowerSlowDown",
-            "Components": {
-                "Component_[10096514595597514188]": {
-                    "$type": "EditorForceRegionComponent",
-                    "Id": 10096514595597514188,
-                    "Forces": [
-                        {
-                            "Type": 5,
-                            "ForceWorldSpace": {
-                                "Direction": [
-                                    1.0,
-                                    0.0,
-                                    0.0
-                                ],
-                                "Magnitude": 25.0
-                            },
-                            "ForceLinearDamping": {
-                                "Damping": 10.0
-                            }
-                        }
-                    ]
-                },
-                "Component_[12080978820915824618]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 12080978820915824618
-                },
-                "Component_[12949774313162738294]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 12949774313162738294
-                },
-                "Component_[13459676204821053891]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 13459676204821053891,
-                    "ColliderConfiguration": {
-                        "Trigger": true,
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1549281371
-                                },
-                                "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
-                            },
-                            "Configuration": {
-                                "Scale": [
-                                    1.0,
-                                    20.0,
-                                    1.0
-                                ],
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1549281371
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
-                                }
-                            }
-                        },
-                        "HasNonUniformScale": true
-                    },
-                    "HasNonUniformScale": true
-                },
-                "Component_[15142509638311197928]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 15142509638311197928,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": {
-                                "{}": {
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{9C47066E-BD8F-5C1B-B935-933296BBE312}"
-                                        },
-                                        "assetHint": "materials/presets/macbeth/15_red.azmaterial"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "defaultMaterialSlot": {
-                        "materialAsset": {
-                            "assetId": {
-                                "guid": "{9C47066E-BD8F-5C1B-B935-933296BBE312}"
-                            },
-                            "assetHint": "materials/presets/macbeth/15_red.azmaterial"
-                        }
-                    },
-                    "materialSlots": [
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        }
-                    ],
-                    "materialSlotsByLod": [
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ]
-                    ]
-                },
-                "Component_[15256337402646699699]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15256337402646699699
-                },
-                "Component_[16540137023539722411]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 16540137023539722411
-                },
-                "Component_[16983068513151658081]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 16983068513151658081,
-                    "Parent Entity": "Entity_[15175632552371]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.158683180809021,
-                            0.010092586278915406,
-                            1.0422545671463013
-                        ],
-                        "UniformScale": 0.05000000074505806
-                    }
-                },
-                "Component_[17099486304926052863]": {
-                    "$type": "EditorRigidBodyComponent",
-                    "Id": 17099486304926052863,
-                    "Configuration": {
-                        "entityId": "",
-                        "Gravity Enabled": false,
-                        "Kinematic": true
-                    }
-                },
-                "Component_[17496635705584396791]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 17496635705584396791
-                },
-                "Component_[2174635437909220797]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 2174635437909220797
-                },
-                "Component_[4642615747907155477]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 4642615747907155477,
-                    "m_name": "ASPowerSlowDown",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{B56CEFA9-92DD-558E-BE90-ADC63D566464}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspowerslowdown.scriptcanvas"
-                        }
-                    },
-                    "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{B56CEFA9-92DD-558E-BE90-ADC63D566464}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspowerslowdown.scriptcanvas"
-                        }
-                    }
-                },
-                "Component_[6311618485271011445]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 6311618485271011445,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 285127096
-                                },
-                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[6354762504944343645]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 6354762504944343645
-                },
-                "Component_[7180737939266670237]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 7180737939266670237
-                },
-                "Component_[829133605482786535]": {
-                    "$type": "EditorNonUniformScaleComponent",
-                    "Id": 829133605482786535,
-                    "NonUniformScale": [
-                        1.0,
-                        20.0,
-                        1.0
-                    ]
-                },
-                "Component_[8939753989403757040]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 8939753989403757040
-                }
-            }
-        },
-        "Entity_[81889824218929]": {
-            "Id": "Entity_[81889824218929]",
-            "Name": "ASPowerSpeedUp",
-            "Components": {
-                "Component_[10096514595597514188]": {
-                    "$type": "EditorForceRegionComponent",
-                    "Id": 10096514595597514188,
-                    "Forces": [
-                        {
-                            "ForceWorldSpace": {
-                                "Direction": [
-                                    1.0,
-                                    0.0,
-                                    0.0
-                                ],
-                                "Magnitude": 25.0
-                            }
-                        }
-                    ]
-                },
-                "Component_[11679424604901241463]": {
-                    "$type": "EditorRigidBodyComponent",
-                    "Id": 11679424604901241463,
-                    "Configuration": {
-                        "entityId": "",
-                        "Gravity Enabled": false,
-                        "Kinematic": true
-                    }
-                },
-                "Component_[12080978820915824618]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 12080978820915824618
-                },
-                "Component_[12949774313162738294]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 12949774313162738294
-                },
-                "Component_[13459676204821053891]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 13459676204821053891,
-                    "ColliderConfiguration": {
-                        "Trigger": true,
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1549281371
-                                },
-                                "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
-                            },
-                            "Configuration": {
-                                "Scale": [
-                                    1.0,
-                                    20.0,
-                                    1.0
-                                ],
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1549281371
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
-                                }
-                            }
-                        },
-                        "HasNonUniformScale": true
-                    },
-                    "HasNonUniformScale": true
-                },
-                "Component_[15142509638311197928]": {
-                    "$type": "EditorMaterialComponent",
-                    "Id": 15142509638311197928,
-                    "Controller": {
-                        "Configuration": {
-                            "materials": {
-                                "{}": {
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{82346ED7-D369-5EF0-A7E0-70C1082EE073}"
-                                        },
-                                        "assetHint": "materials/presets/macbeth/14_green.azmaterial"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "defaultMaterialSlot": {
-                        "materialAsset": {
-                            "assetId": {
-                                "guid": "{82346ED7-D369-5EF0-A7E0-70C1082EE073}"
-                            },
-                            "assetHint": "materials/presets/macbeth/14_green.azmaterial"
-                        }
-                    },
-                    "materialSlots": [
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 1803671422
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 1803671422
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                            }
-                        }
-                    ],
-                    "materialSlotsByLod": [
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 1803671422
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                        "subId": 1803671422
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
-                                }
-                            }
-                        ]
-                    ]
-                },
-                "Component_[15256337402646699699]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15256337402646699699
-                },
-                "Component_[16540137023539722411]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 16540137023539722411
-                },
-                "Component_[16574380992166508583]": {
-                    "$type": "EditorNonUniformScaleComponent",
-                    "Id": 16574380992166508583,
-                    "NonUniformScale": [
-                        1.0,
-                        20.0,
-                        1.0
-                    ]
-                },
-                "Component_[16983068513151658081]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 16983068513151658081,
-                    "Parent Entity": "Entity_[15175632552371]",
-                    "Transform Data": {
-                        "Translate": [
-                            -0.034411072731018069,
-                            0.01323997974395752,
-                            1.0172544717788697
-                        ],
-                        "UniformScale": 0.05000000074505806
-                    }
-                },
-                "Component_[17496635705584396791]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 17496635705584396791
-                },
-                "Component_[2174635437909220797]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 2174635437909220797
-                },
-                "Component_[474102797129174293]": {
-                    "$type": "EditorScriptCanvasComponent",
-                    "Id": 474102797129174293,
-                    "m_name": "ASPowerSpeedUp",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{0D6CDF31-7EDF-5CC3-9D92-BCB2D09BB61D}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspowerspeedup.scriptcanvas"
-                        }
-                    },
-                    "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{0D6CDF31-7EDF-5CC3-9D92-BCB2D09BB61D}"
-                            },
-                            "assetHint": "assets/scriptcanvas/aspowerspeedup.scriptcanvas"
-                        }
-                    }
-                },
-                "Component_[6311618485271011445]": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 6311618485271011445,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
-                                    "subId": 285127096
-                                },
-                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
-                            }
-                        }
-                    }
-                },
-                "Component_[6354762504944343645]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 6354762504944343645
-                },
-                "Component_[7180737939266670237]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 7180737939266670237
-                },
-                "Component_[8939753989403757040]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 8939753989403757040
-                }
-            }
-        },
         "Entity_[922770305551]": {
             "Id": "Entity_[922770305551]",
             "Name": "ASCameraRig",
@@ -5298,6 +3095,188 @@
                     "Id": 9645313323879925735
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[6205781309552]": {
+            "Source": "Assets/Prefabs/ASBall.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6413369761674732465]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6413369761674732465]/Transform Data/Translate/0",
+                    "value": 14.044109344482422
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6413369761674732465]/Transform Data/Translate/1",
+                    "value": 7.584203720092773
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6413369761674732465]/Transform Data/Translate/2",
+                    "value": 28.238754272460939
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6413369761674732465]/Transform Data/Rotate/2",
+                    "value": -91.81283569335938
+                }
+            ]
+        },
+        "Instance_[6334630328432]": {
+            "Source": "Assets/Prefabs/ASUI.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10606714908275061586]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10606714908275061586]/Transform Data/Translate/0",
+                    "value": 43.27430725097656
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10606714908275061586]/Transform Data/Translate/1",
+                    "value": 15.760969161987305
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[10606714908275061586]/Transform Data/Translate/2",
+                    "value": 22.227914810180665
+                }
+            ]
+        },
+        "Instance_[6497839085680]": {
+            "Source": "Assets/Prefabs/PropellerRED.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[398860201641194897]/Parent Entity",
+                    "value": "../Entity_[15175632552371]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[398860201641194897]/Transform Data/Translate/0",
+                    "value": 0.4406470060348511
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[398860201641194897]/Transform Data/Translate/1",
+                    "value": -0.004999995231628418
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[398860201641194897]/Transform Data/Translate/2",
+                    "value": 1.3423128128051758
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[398860201641194897]/Transform Data/Rotate/2",
+                    "value": 82.39791870117188
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[398860201641194897]/Transform Data/UniformScale",
+                    "value": 0.05000000074505806
+                }
+            ]
+        },
+        "Instance_[6695407581296]": {
+            "Source": "Assets/Prefabs/ASStopTimer.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16546236539759690737]/Parent Entity",
+                    "value": "../Entity_[15175632552371]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16546236539759690737]/Transform Data/Translate/0",
+                    "value": 0.8525108098983765
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16546236539759690737]/Transform Data/Translate/1",
+                    "value": -0.004294484853744507
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16546236539759690737]/Transform Data/Translate/2",
+                    "value": 1.0305274724960328
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16546236539759690737]/Transform Data/UniformScale",
+                    "value": 0.05000000074505806
+                }
+            ]
+        },
+        "Instance_[6927335815280]": {
+            "Source": "Assets/Prefabs/ASPowerSlowDown.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13591531104418707647]/Parent Entity",
+                    "value": "../Entity_[15175632552371]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13591531104418707647]/Transform Data/Translate/0",
+                    "value": 0.158683180809021
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13591531104418707647]/Transform Data/Translate/1",
+                    "value": 0.010092586278915406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13591531104418707647]/Transform Data/Translate/2",
+                    "value": 1.0422545671463013
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[13591531104418707647]/Transform Data/UniformScale",
+                    "value": 0.05000000074505806
+                }
+            ]
+        },
+        "Instance_[7193623787632]": {
+            "Source": "Assets/Prefabs/ASPowerSpeedUp.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9504968868513724150]/Parent Entity",
+                    "value": "../Entity_[15175632552371]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9504968868513724150]/Transform Data/Translate/0",
+                    "value": -0.034411072731018069
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9504968868513724150]/Transform Data/Translate/1",
+                    "value": 0.01323997974395752
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9504968868513724150]/Transform Data/Translate/2",
+                    "value": 1.0172544717788697
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9504968868513724150]/Transform Data/UniformScale",
+                    "value": 0.05000000074505806
+                }
+            ]
         }
     }
 }

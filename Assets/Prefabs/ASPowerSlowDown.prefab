@@ -1,0 +1,309 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ASPowerSlowDown",
+        "Components": {
+            "Component_[10619644404048007192]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10619644404048007192
+            },
+            "Component_[11674929946302906132]": {
+                "$type": "SelectionComponent",
+                "Id": 11674929946302906132
+            },
+            "Component_[11877909087469290008]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11877909087469290008
+            },
+            "Component_[12343817121399450813]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12343817121399450813
+            },
+            "Component_[13591531104418707647]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13591531104418707647,
+                "Parent Entity": ""
+            },
+            "Component_[237146272981530885]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 237146272981530885
+            },
+            "Component_[3033392123017895798]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3033392123017895798
+            },
+            "Component_[3802892791772543046]": {
+                "$type": "EditorLockComponent",
+                "Id": 3802892791772543046
+            },
+            "Component_[5112738933486378114]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5112738933486378114
+            },
+            "Component_[7128395115355887791]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7128395115355887791
+            },
+            "Component_[8492606455184386661]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8492606455184386661
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6923040847984]": {
+            "Id": "Entity_[6923040847984]",
+            "Name": "ASPowerSlowDown",
+            "Components": {
+                "Component_[10096514595597514188]": {
+                    "$type": "EditorForceRegionComponent",
+                    "Id": 10096514595597514188,
+                    "Forces": [
+                        {
+                            "Type": 5,
+                            "ForceWorldSpace": {
+                                "Direction": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Magnitude": 25.0
+                            },
+                            "ForceLinearDamping": {
+                                "Damping": 10.0
+                            }
+                        }
+                    ]
+                },
+                "Component_[12080978820915824618]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12080978820915824618
+                },
+                "Component_[12949774313162738294]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12949774313162738294
+                },
+                "Component_[13459676204821053891]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13459676204821053891,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                    "subId": 1549281371
+                                },
+                                "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
+                            },
+                            "Configuration": {
+                                "Scale": [
+                                    1.0,
+                                    20.0,
+                                    1.0
+                                ],
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                        "subId": 1549281371
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "materialeditor/viewportmodels/cube-1.pxmesh"
+                                }
+                            }
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                },
+                "Component_[15142509638311197928]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15142509638311197928,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{9C47066E-BD8F-5C1B-B935-933296BBE312}"
+                                        },
+                                        "assetHint": "materials/presets/macbeth/15_red.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{9C47066E-BD8F-5C1B-B935-933296BBE312}"
+                            },
+                            "assetHint": "materials/presets/macbeth/15_red.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 1803671422
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                    "subId": 1803671422
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1803671422
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                        "subId": 1803671422
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "materialeditor/viewportmodels/cube_default_12399812254575482750.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[15256337402646699699]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15256337402646699699
+                },
+                "Component_[16540137023539722411]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16540137023539722411
+                },
+                "Component_[16983068513151658081]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16983068513151658081,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17099486304926052863]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 17099486304926052863,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "Kinematic": true
+                    }
+                },
+                "Component_[17496635705584396791]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17496635705584396791,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16983068513151658081
+                        },
+                        {
+                            "ComponentId": 829133605482786535,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4642615747907155477,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 6311618485271011445,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 15142509638311197928,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 13459676204821053891,
+                            "SortIndex": 5
+                        },
+                        {
+                            "ComponentId": 10096514595597514188,
+                            "SortIndex": 6
+                        },
+                        {
+                            "ComponentId": 17099486304926052863,
+                            "SortIndex": 7
+                        }
+                    ]
+                },
+                "Component_[2174635437909220797]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2174635437909220797
+                },
+                "Component_[4642615747907155477]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 4642615747907155477,
+                    "m_name": "ASPowerSlowDown",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{B56CEFA9-92DD-558E-BE90-ADC63D566464}"
+                            },
+                            "assetHint": "assets/scriptcanvas/aspowerslowdown.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{B56CEFA9-92DD-558E-BE90-ADC63D566464}"
+                            },
+                            "assetHint": "assets/scriptcanvas/aspowerslowdown.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[6311618485271011445]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6311618485271011445,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B991E03B-F50D-552E-9E2D-64FA6DAB1CCB}",
+                                    "subId": 285127096
+                                },
+                                "assetHint": "materialeditor/viewportmodels/cube.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6354762504944343645]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6354762504944343645
+                },
+                "Component_[7180737939266670237]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7180737939266670237
+                },
+                "Component_[829133605482786535]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 829133605482786535,
+                    "NonUniformScale": [
+                        1.0,
+                        20.0,
+                        1.0
+                    ]
+                },
+                "Component_[8939753989403757040]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8939753989403757040
+                }
+            }
+        }
+    }
+}

@@ -154,67 +154,9 @@
                     "$type": "EditorMaterialComponent",
                     "Id": 5182430712893438093,
                     "materialSlots": [
-                        {
-                            "id": {
-                                "materialSlotStableId": 803645540
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
-                                    "subId": 803645540
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 803645540
-                            },
-                            "defaultMaterialAsset": {
-                                "assetId": {
-                                    "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
-                                    "subId": 803645540
-                                },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
-                            }
-                        },
                         {}
                     ],
                     "materialSlotsByLod": [
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 803645540
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
-                                        "subId": 803645540
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 803645540
-                                },
-                                "defaultMaterialAsset": {
-                                    "assetId": {
-                                        "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
-                                        "subId": 803645540
-                                    },
-                                    "loadBehavior": "PreLoad",
-                                    "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
-                                }
-                            }
-                        ],
                         [
                             {
                                 "id": {
@@ -627,75 +569,6 @@
                 "Component_[931091830724002070]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 931091830724002070
-                }
-            }
-        },
-        "Entity_[471559839302]": {
-            "Id": "Entity_[471559839302]",
-            "Name": "AudioTester",
-            "Components": {
-                "Component_[13648760516779578610]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 13648760516779578610
-                },
-                "Component_[13940725092405735710]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 13940725092405735710
-                },
-                "Component_[14546568603888221672]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 14546568603888221672
-                },
-                "Component_[15719274042516589865]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 15719274042516589865,
-                    "m_template": {
-                        "$type": "AudioProxyComponent"
-                    }
-                },
-                "Component_[16303417965884584061]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 16303417965884584061
-                },
-                "Component_[17113744947528952493]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17113744947528952493
-                },
-                "Component_[17629649946885978016]": {
-                    "$type": "EditorAudioTriggerComponent",
-                    "Id": 17629649946885978016,
-                    "Play Trigger": {
-                        "controlName": "trigger"
-                    },
-                    "Plays Immediately": true
-                },
-                "Component_[5279091369777046121]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5279091369777046121
-                },
-                "Component_[6724209511845107575]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 6724209511845107575
-                },
-                "Component_[7556460164967527190]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 7556460164967527190,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.019232258200645448,
-                            -0.4805006980895996,
-                            0.5001177787780762
-                        ]
-                    }
-                },
-                "Component_[8438485367752978218]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 8438485367752978218
-                },
-                "Component_[9640167978337805243]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 9640167978337805243
                 }
             }
         }

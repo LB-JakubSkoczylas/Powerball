@@ -1,0 +1,148 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ASUI",
+        "Components": {
+            "Component_[10606714908275061586]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10606714908275061586,
+                "Parent Entity": ""
+            },
+            "Component_[10698176451421002951]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10698176451421002951
+            },
+            "Component_[11209877552569798760]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11209877552569798760
+            },
+            "Component_[11877640861907090723]": {
+                "$type": "SelectionComponent",
+                "Id": 11877640861907090723
+            },
+            "Component_[13582399155881342425]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13582399155881342425
+            },
+            "Component_[16023717689428925328]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16023717689428925328
+            },
+            "Component_[16572337260404934671]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16572337260404934671
+            },
+            "Component_[17640058912421247045]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17640058912421247045
+            },
+            "Component_[17701572751746409704]": {
+                "$type": "EditorLockComponent",
+                "Id": 17701572751746409704
+            },
+            "Component_[2129153942078073405]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2129153942078073405
+            },
+            "Component_[4545311560470707332]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4545311560470707332
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6330335361136]": {
+            "Id": "Entity_[6330335361136]",
+            "Name": "ASUI",
+            "Components": {
+                "Component_[15036934809491628385]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15036934809491628385,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5026631435112495869
+                        },
+                        {
+                            "ComponentId": 4786187030660194485,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 656861641406333681,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16375135518530812860]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16375135518530812860
+                },
+                "Component_[17309423620418486137]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17309423620418486137
+                },
+                "Component_[2034819223332233420]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2034819223332233420
+                },
+                "Component_[2406366772112251006]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2406366772112251006
+                },
+                "Component_[3388656308368323272]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3388656308368323272
+                },
+                "Component_[3700784136378477866]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3700784136378477866
+                },
+                "Component_[4786187030660194485]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 4786187030660194485,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "assets/ui/jsmainmenu.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
+                },
+                "Component_[5026631435112495869]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5026631435112495869,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[656861641406333681]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 656861641406333681,
+                    "m_name": "ASUIHandler",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{8CD146E3-F7E0-51CF-A189-CA7FFF415021}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asuihandler.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{8CD146E3-F7E0-51CF-A189-CA7FFF415021}"
+                            },
+                            "assetHint": "assets/scriptcanvas/asuihandler.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[8353117212029885454]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8353117212029885454
+                },
+                "Component_[9318569245469287847]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9318569245469287847
+                }
+            }
+        }
+    }
+}

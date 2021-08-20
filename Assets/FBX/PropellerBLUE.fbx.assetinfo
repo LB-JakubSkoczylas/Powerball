@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "PropellerBLUE",
+            "selectedRootBone": "RootNode",
+            "id": "{589D0AD1-3B46-5333-9ECD-BF165C67368F}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{4951271B-107D-5D6D-B0DD-CB28A7811EF5}",
+            "name": "PropellerBLUE",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Sphere.Sphere_1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Sphere",
+                    "RootNode.Sphere.Sphere_2"
+                ]
+            },
+            "export method": 1,
+            "MaterialSlots": [
+                "Helice"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "PropellerBLUE",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Sphere",
+                    "RootNode.Sphere.Sphere_1",
+                    "RootNode.Sphere.Sphere_2"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{896FB4BB-7CED-52CF-BA7F-4C6505A6E0D6}"
+        },
+        {
+            "$type": "LoggingGroup",
+            "groupName": "Logger_0"
+        }
+    ]
+}

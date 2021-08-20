@@ -28,6 +28,7 @@
                     "RootNode.Cube.Cube_2.Base"
                 ]
             },
+            "export method": 2,
             "ConvexAssetParams": {
                 "AreaTestEpsilon": 0.05900000035762787,
                 "PlaneTolerance": 0.0
@@ -41,11 +42,9 @@
                 "ConvexHullDownsampling": 16
             },
             "MaterialSlots": [
-                "Stripes",
-                "Base"
+                "Stripes"
             ],
             "PhysicsMaterials": [
-                "<Default Physics Material>",
                 "<Default Physics Material>"
             ]
         },

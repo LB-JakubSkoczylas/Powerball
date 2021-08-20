@@ -663,11 +663,7 @@
                 },
                 "Component_[17629649946885978016]": {
                     "$type": "EditorAudioTriggerComponent",
-                    "Id": 17629649946885978016,
-                    "Play Trigger": {
-                        "controlName": "trigger"
-                    },
-                    "Plays Immediately": true
+                    "Id": 17629649946885978016
                 },
                 "Component_[5279091369777046121]": {
                     "$type": "EditorDisabledCompositionComponent",
